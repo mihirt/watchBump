@@ -1,22 +1,29 @@
 Archive member included because of file (symbol)
 
-/Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+/Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
                               src/simply/simply_accel.c.11.o (accel_data_service_unsubscribe)
+
+Allocating common symbols
+Common symbol       size              file
+
+timer               0x4               src/strap/accl.c.11.o
+acc_data            0x4               src/strap/accl.c.11.o
+acc_time            0x4               src/strap/accl.c.11.o
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .bss           0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .init          0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .fini          0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .text          0x0000000000000000       0xc8 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .bss           0x0000000000000000       0x1c /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .init_array    0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .fini_array    0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .eh_frame      0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
- .jcr           0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .text          0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .bss           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .init          0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .fini          0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .text          0x0000000000000000       0xc8 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .bss           0x0000000000000000       0x1c /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .tm_clone_table
-                0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .text          0x0000000000000000        0x0 src/main.c.11.o
  .bss           0x0000000000000000        0x0 src/main.c.11.o
  .text          0x0000000000000000        0x0 src/simply/simply.c.11.o
@@ -51,465 +58,557 @@ Discarded input sections
                 0x0000000000000000       0x24 src/simply/simply_window.c.11.o
  .text          0x0000000000000000        0x0 src/simply/simply_window_stack.c.11.o
  .bss           0x0000000000000000        0x0 src/simply/simply_window_stack.c.11.o
+ .text          0x0000000000000000        0x0 src/strap/accl.c.11.o
+ .bss           0x0000000000000000        0x0 src/strap/accl.c.11.o
+ .text.accl_out_received_handler
+                0x0000000000000000       0x1c src/strap/accl.c.11.o
+ .text.accel_data_handler
+                0x0000000000000000       0x8c src/strap/accl.c.11.o
+ .text.accl_out_failed_handler
+                0x0000000000000000       0x3c src/strap/accl.c.11.o
+ .text.handle_second_tick
+                0x0000000000000000       0x80 src/strap/accl.c.11.o
+ .text.request_send_acc
+                0x0000000000000000      0x1a4 src/strap/accl.c.11.o
+ .text.timer_callback
+                0x0000000000000000       0x44 src/strap/accl.c.11.o
+ .text.accl_init
+                0x0000000000000000       0x70 src/strap/accl.c.11.o
+ .text.accl_deinit
+                0x0000000000000000       0x10 src/strap/accl.c.11.o
+ .bss.cur_activity
+                0x0000000000000000        0xf src/strap/accl.c.11.o
+ .bss.accl_data
+                0x0000000000000000       0x96 src/strap/accl.c.11.o
+ .bss.waiting_data
+                0x0000000000000000        0x1 src/strap/accl.c.11.o
+ .data.rel.local.xyz_str
+                0x0000000000000000        0x4 src/strap/accl.c.11.o
+ .bss.msg_run   0x0000000000000000        0x1 src/strap/accl.c.11.o
+ .data.num_samples
+                0x0000000000000000        0x1 src/strap/accl.c.11.o
+ .data.sample_freq
+                0x0000000000000000        0x1 src/strap/accl.c.11.o
+ .bss.ack_count
+                0x0000000000000000        0x2 src/strap/accl.c.11.o
+ .rodata.str1.1
+                0x0000000000000000       0xcc src/strap/accl.c.11.o
+ .data.count_text.6702
+                0x0000000000000000       0x45 src/strap/accl.c.11.o
+ .bss.dict_iter
+                0x0000000000000000        0xc src/strap/accl.c.11.o
+ .data.rel.local.iter
+                0x0000000000000000        0x4 src/strap/accl.c.11.o
+ .bss.acc_count
+                0x0000000000000000        0x2 src/strap/accl.c.11.o
+ .bss.sample_count
+                0x0000000000000000        0x2 src/strap/accl.c.11.o
+ .bss.fail_count
+                0x0000000000000000        0x2 src/strap/accl.c.11.o
+ COMMON         0x0000000000000000        0xc src/strap/accl.c.11.o
+ .text          0x0000000000000000        0x0 src/strap/strap.c.11.o
+ .bss           0x0000000000000000        0x0 src/strap/strap.c.11.o
+ .text.log_action
+                0x0000000000000000       0x90 src/strap/strap.c.11.o
+ .text.app_timer_accl_stop
+                0x0000000000000000       0x74 src/strap/strap.c.11.o
+ .text.app_timer_accl_start
+                0x0000000000000000       0x60 src/strap/strap.c.11.o
+ .text.send_next_log.isra.0
+                0x0000000000000000       0x68 src/strap/strap.c.11.o
+ .text.strap_out_failed_handler
+                0x0000000000000000       0x14 src/strap/strap.c.11.o
+ .text.strap_out_sent_handler
+                0x0000000000000000       0x14 src/strap/strap.c.11.o
+ .text.strap_log_action
+                0x0000000000000000       0x1a src/strap/strap.c.11.o
+ .text.strap_deinit
+                0x0000000000000000       0x2c src/strap/strap.c.11.o
+ .text.app_timer_battery
+                0x0000000000000000       0x98 src/strap/strap.c.11.o
+ .text.strap_log_event
+                0x0000000000000000       0x1a src/strap/strap.c.11.o
+ .text.strap_set_activity
+                0x0000000000000000       0x10 src/strap/strap.c.11.o
+ .text.strap_init
+                0x0000000000000000       0xd4 src/strap/strap.c.11.o
+ .text.strap_set_freq
+                0x0000000000000000        0xc src/strap/strap.c.11.o
+ .bss.acclStart
+                0x0000000000000000        0x4 src/strap/strap.c.11.o
+ .bss.cur_activity
+                0x0000000000000000        0xf src/strap/strap.c.11.o
+ .bss.acclStop  0x0000000000000000        0x4 src/strap/strap.c.11.o
+ .rodata.str1.1
+                0x0000000000000000       0x67 src/strap/strap.c.11.o
+ .bss.report_accl
+                0x0000000000000000        0x4 src/strap/strap.c.11.o
+ .bss.logqueue  0x0000000000000000      0x5dc src/strap/strap.c.11.o
+ .data.curFreq  0x0000000000000000        0x4 src/strap/strap.c.11.o
+ .bss.battTimer
+                0x0000000000000000        0x4 src/strap/strap.c.11.o
+ .bss.curLog    0x0000000000000000        0x4 src/strap/strap.c.11.o
  .text          0x0000000000000000        0x0 appinfo.auto.c.11.o
  .bss           0x0000000000000000        0x0 appinfo.auto.c.11.o
- .bss           0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .bss           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.accel_data_service_subscribe__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.accel_service_set_samples_per_update
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.action_bar_layer_get_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_get_context
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_is_scheduled
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_set_delay
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_set_implementation
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_unschedule_all
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_comm_get_sniff_interval
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_comm_set_sniff_interval
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.app_log  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.app_log  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_sync_deinit
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_sync_get
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_sync_init
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_sync_set
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_timer_reschedule
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.atan2_lookup
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.atoi     0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.atol     0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.atoi     0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.atol     0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.battery_state_service_peek
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.battery_state_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.battery_state_service_unsubscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_get_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_set_alignment
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_set_background_color
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_set_bitmap
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_set_compositing_mode
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bluetooth_connection_service_peek
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bluetooth_connection_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bluetooth_connection_service_unsubscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.click_number_of_clicks_counted
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.clock_copy_time_string
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.clock_is_24h_style
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.cos_lookup
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.data_logging_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.data_logging_finish
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.data_logging_log
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_calc_buffer_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_calc_buffer_size_from_tuplets
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_merge
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_read_begin_from_buffer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_read_first
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_read_next
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_serialize_tuplets
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_serialize_tuplets_to_buffer__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_serialize_tuplets_to_buffer_with_iter
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_begin
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_cstring
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_end
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_int
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_int16
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_int32
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_int8
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_tuplet
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_uint16
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_uint32
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_write_uint8
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gbitmap_create_as_sub_bitmap
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gbitmap_create_with_data
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.gmtime   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.gmtime   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_draw_filled_legacy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_draw_outline
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_move_to
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_rotate_to
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpoint_equal
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_draw_line
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_draw_pixel
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_draw_rect
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_text_layout_get_max_used_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_align
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_center_point
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_clip
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_contains_point
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_crop
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_equal
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_is_empty
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.grect_standardize
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gsize_equal
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_get_clips
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_get_hidden
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_insert_above_sibling
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_insert_below_sibling
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_remove_child_layers
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_set_clips
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.layer_set_hidden
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.light_enable
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.light_enable_interaction
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.memmove  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.memmove  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.menu_cell_title_draw
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.menu_index_compare
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.menu_layer_get_scroll_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.menu_layer_set_callbacks__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.menu_layer_set_selected_next
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_get_value
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_set_label
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_set_max
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_set_min
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_set_step_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_set_value
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_delete
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_exists
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_get_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_bool
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_data__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_int
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_string__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_write_bool
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_write_data__deprecated
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_write_int
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_write_string
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.property_animation_create_layer_frame
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.property_animation_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.property_animation_update_gpoint
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.property_animation_update_int16
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.psleep   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.rand     0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.psleep   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.rand     0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.resource_load
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.resource_load_byte_range
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.resource_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_layer_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_layer_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_layer_increment_angle
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_layer_set_angle
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_layer_set_corner_clip_color
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_set_compositing_mode
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.rot_bitmap_set_src_ic
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_get_content_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_get_shadow_hidden
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_scroll_down_click_handler
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_scroll_up_click_handler
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_set_callbacks
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.scroll_layer_set_shadow_hidden
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_get_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_get_selected_index
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_set_selected_index
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.sin_lookup
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.snprintf
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.srand    0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.strcat   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.strcmp   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.strcpy   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.strncat  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.strncmp  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.srand    0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.strcat   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.strcmp   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.strcpy   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.strncat  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.strncmp  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_create
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_destroy
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_get_content_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_get_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_get_text
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_background_color
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_font
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_overflow_mode
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_text
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_text_alignment
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.text_layer_set_text_color
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.time_ms  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.time_ms  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.vibes_cancel
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.vibes_enqueue_custom_pattern
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.vibes_long_pulse
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_get_fullscreen
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_is_loaded
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_set_click_config_provider
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_set_status_bar_icon
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_focus_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_focus_service_unsubscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_message_get_context
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_message_inbox_size_maximum
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_message_outbox_size_maximum
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_multi_click_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_raw_click_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_single_repeating_click_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_serialize_tuplets_to_buffer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_data
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_read_string
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.persist_write_data
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.dict_size
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.simple_menu_layer_get_menu_layer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.calloc   0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.calloc   0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.bitmap_layer_get_bitmap
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.window_get_click_config_context
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.number_window_get_window
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text.realloc  0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text.realloc  0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gbitmap_create_blank
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.click_recognizer_is_repeating
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.accel_raw_data_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_is_running
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_kill
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_launch
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_message_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_message_unsubscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.app_worker_send_message
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.worker_event_loop
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.worker_launch_app
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.heap_bytes_free
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.heap_bytes_used
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.compass_service_peek
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.compass_service_set_heading_filter
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.compass_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.compass_service_unsubscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.uuid_equal
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.uuid_to_string
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.gpath_draw_filled
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.animation_set_custom_curve
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.watch_info_get_color
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.watch_info_get_firmware_version
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.watch_info_get_model
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_capture_frame_buffer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_frame_buffer_is_captured
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.graphics_release_frame_buffer
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.clock_to_timestamp
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.launch_reason
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_cancel
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_cancel_all
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_get_launch_event
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_query
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_schedule
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.wakeup_service_subscribe
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.clock_is_timezone_set
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.i18n_get_system_locale
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text._localeconv_r
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  .text.setlocale
-                0x0000000000000000        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .text          0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .bss           0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .eh_frame      0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .jcr           0x0000000000000000        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+                0x0000000000000000        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text          0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .jcr           0x0000000000000000        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
  .tm_clone_table
-                0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .text          0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .bss           0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .init          0x0000000000000000        0x8 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
- .fini          0x0000000000000000        0x8 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+                0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .text          0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .init          0x0000000000000000        0x8 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .fini          0x0000000000000000        0x8 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 Memory Configuration
 
@@ -519,8 +618,8 @@ APP              0x0000000000000000 0x0000000000006000 xrw
 
 Linker script and memory map
 
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 LOAD src/main.c.11.o
 LOAD src/simply/simply.c.11.o
 LOAD src/simply/simply_accel.c.11.o
@@ -532,23 +631,25 @@ LOAD src/simply/simply_stage.c.11.o
 LOAD src/simply/simply_ui.c.11.o
 LOAD src/simply/simply_window.c.11.o
 LOAD src/simply/simply_window_stack.c.11.o
+LOAD src/strap/accl.c.11.o
+LOAD src/strap/strap.c.11.o
 LOAD appinfo.auto.c.11.o
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a
 START GROUP
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
 END GROUP
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
-LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+LOAD /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 .header         0x0000000000000000       0x82
  *(.pbl_header)
  .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.11.o
                 0x0000000000000000                __pbl_app_info
 
-.text           0x0000000000000084     0x2e15
+.text           0x0000000000000084     0x2d15
  *(.text)
- .text          0x0000000000000084       0x14 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .text          0x0000000000000084       0x14 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
  *(.text.*)
  .text.startup.main
                 0x0000000000000098       0x16 src/main.c.11.o
@@ -646,736 +747,741 @@ LOAD /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/a
                 0x0000000000000740       0x28 src/simply/simply_menu.c.11.o
                 0x0000000000000740                simply_menu_clear
  .text.window_disappear
-                0x0000000000000768       0x24 src/simply/simply_menu.c.11.o
+                0x0000000000000768       0x1c src/simply/simply_menu.c.11.o
  .text.simply_menu_create
-                0x000000000000078c       0x5c src/simply/simply_menu.c.11.o
-                0x000000000000078c                simply_menu_create
+                0x0000000000000784       0x5c src/simply/simply_menu.c.11.o
+                0x0000000000000784                simply_menu_create
  .text.simply_menu_destroy
-                0x00000000000007e8       0x16 src/simply/simply_menu.c.11.o
-                0x00000000000007e8                simply_menu_destroy
- .text.list1_remove
-                0x00000000000007fe       0x32 src/simply/simply_msg.c.11.o
+                0x00000000000007e0       0x16 src/simply/simply_menu.c.11.o
+                0x00000000000007e0                simply_menu_destroy
  .text.dropped_callback
-                0x0000000000000830        0x2 src/simply/simply_msg.c.11.o
+                0x00000000000007f6        0x2 src/simply/simply_msg.c.11.o
  .text.sent_callback
-                0x0000000000000832        0x2 src/simply/simply_msg.c.11.o
- .text.malloc0  0x0000000000000834       0x18 src/simply/simply_msg.c.11.o
+                0x00000000000007f8        0x2 src/simply/simply_msg.c.11.o
+ .text.malloc0  0x00000000000007fa       0x18 src/simply/simply_msg.c.11.o
+ *fill*         0x0000000000000812        0x2 
  .text.add_packet
-                0x000000000000084c       0x70 src/simply/simply_msg.c.11.o
+                0x0000000000000814       0x70 src/simply/simply_msg.c.11.o
  .text.send_menu_item
-                0x00000000000008bc       0x2c src/simply/simply_msg.c.11.o
+                0x0000000000000884       0x2c src/simply/simply_msg.c.11.o
  .text.send_msg
-                0x00000000000008e8       0x30 src/simply/simply_msg.c.11.o
- .text.get_top_simply_window
-                0x0000000000000918       0x20 src/simply/simply_msg.c.11.o
- .text.strdup2  0x0000000000000938       0x28 src/simply/simply_msg.c.11.o
+                0x00000000000008b0       0x30 src/simply/simply_msg.c.11.o
  .text.send_msg_retry
-                0x0000000000000960       0xb4 src/simply/simply_msg.c.11.o
+                0x00000000000008e0       0xd8 src/simply/simply_msg.c.11.o
+ .text.get_top_simply_window
+                0x00000000000009b8       0x20 src/simply/simply_msg.c.11.o
+ .text.strdup2  0x00000000000009d8       0x28 src/simply/simply_msg.c.11.o
  .text.simply_msg_has_communicated
-                0x0000000000000a14        0xc src/simply/simply_msg.c.11.o
-                0x0000000000000a14                simply_msg_has_communicated
+                0x0000000000000a00        0xc src/simply/simply_msg.c.11.o
+                0x0000000000000a00                simply_msg_has_communicated
  .text.simply_msg_show_disconnected
-                0x0000000000000a20       0x58 src/simply/simply_msg.c.11.o
-                0x0000000000000a20                simply_msg_show_disconnected
+                0x0000000000000a0c       0x58 src/simply/simply_msg.c.11.o
+                0x0000000000000a0c                simply_msg_show_disconnected
  .text.failed_callback
-                0x0000000000000a78       0x18 src/simply/simply_msg.c.11.o
+                0x0000000000000a64       0x18 src/simply/simply_msg.c.11.o
  .text.simply_msg_create
-                0x0000000000000a90       0x60 src/simply/simply_msg.c.11.o
-                0x0000000000000a90                simply_msg_create
+                0x0000000000000a7c       0x60 src/simply/simply_msg.c.11.o
+                0x0000000000000a7c                simply_msg_create
  .text.simply_msg_destroy
-                0x0000000000000af0       0x1c src/simply/simply_msg.c.11.o
-                0x0000000000000af0                simply_msg_destroy
+                0x0000000000000adc       0x1c src/simply/simply_msg.c.11.o
+                0x0000000000000adc                simply_msg_destroy
  .text.simply_msg_single_click
-                0x0000000000000b0c       0x26 src/simply/simply_msg.c.11.o
-                0x0000000000000b0c                simply_msg_single_click
+                0x0000000000000af8       0x26 src/simply/simply_msg.c.11.o
+                0x0000000000000af8                simply_msg_single_click
  .text.simply_msg_long_click
-                0x0000000000000b32       0x26 src/simply/simply_msg.c.11.o
-                0x0000000000000b32                simply_msg_long_click
+                0x0000000000000b1e       0x26 src/simply/simply_msg.c.11.o
+                0x0000000000000b1e                simply_msg_long_click
  .text.send_window
-                0x0000000000000b58       0x38 src/simply/simply_msg.c.11.o
-                0x0000000000000b58                send_window
+                0x0000000000000b44       0x38 src/simply/simply_msg.c.11.o
+                0x0000000000000b44                send_window
  .text.simply_msg_window_show
-                0x0000000000000b90        0x8 src/simply/simply_msg.c.11.o
-                0x0000000000000b90                simply_msg_window_show
+                0x0000000000000b7c        0x8 src/simply/simply_msg.c.11.o
+                0x0000000000000b7c                simply_msg_window_show
  .text.simply_msg_window_hide
-                0x0000000000000b98        0x8 src/simply/simply_msg.c.11.o
-                0x0000000000000b98                simply_msg_window_hide
+                0x0000000000000b84        0x8 src/simply/simply_msg.c.11.o
+                0x0000000000000b84                simply_msg_window_hide
  .text.simply_msg_accel_tap
-                0x0000000000000ba0       0x2a src/simply/simply_msg.c.11.o
-                0x0000000000000ba0                simply_msg_accel_tap
+                0x0000000000000b8c       0x2a src/simply/simply_msg.c.11.o
+                0x0000000000000b8c                simply_msg_accel_tap
  .text.simply_msg_accel_data
-                0x0000000000000bca       0x4a src/simply/simply_msg.c.11.o
-                0x0000000000000bca                simply_msg_accel_data
+                0x0000000000000bb6       0x4a src/simply/simply_msg.c.11.o
+                0x0000000000000bb6                simply_msg_accel_data
  .text.accel_peek_timer_callback
-                0x0000000000000c14       0x38 src/simply/simply_msg.c.11.o
+                0x0000000000000c00       0x38 src/simply/simply_msg.c.11.o
  .text.simply_msg_menu_get_section
-                0x0000000000000c4c        0xa src/simply/simply_msg.c.11.o
-                0x0000000000000c4c                simply_msg_menu_get_section
+                0x0000000000000c38        0xa src/simply/simply_msg.c.11.o
+                0x0000000000000c38                simply_msg_menu_get_section
  .text.simply_msg_menu_get_item
-                0x0000000000000c56       0x12 src/simply/simply_msg.c.11.o
-                0x0000000000000c56                simply_msg_menu_get_item
+                0x0000000000000c42       0x12 src/simply/simply_msg.c.11.o
+                0x0000000000000c42                simply_msg_menu_get_item
  .text.simply_msg_menu_select_click
-                0x0000000000000c68       0x12 src/simply/simply_msg.c.11.o
-                0x0000000000000c68                simply_msg_menu_select_click
+                0x0000000000000c54       0x12 src/simply/simply_msg.c.11.o
+                0x0000000000000c54                simply_msg_menu_select_click
  .text.simply_msg_menu_select_long_click
-                0x0000000000000c7a       0x12 src/simply/simply_msg.c.11.o
-                0x0000000000000c7a                simply_msg_menu_select_long_click
+                0x0000000000000c66       0x12 src/simply/simply_msg.c.11.o
+                0x0000000000000c66                simply_msg_menu_select_long_click
  .text.simply_msg_send_menu_selection
-                0x0000000000000c8c       0x2c src/simply/simply_msg.c.11.o
-                0x0000000000000c8c                simply_msg_send_menu_selection
- .text.handle_packet
-                0x0000000000000cb8      0x4ec src/simply/simply_msg.c.11.o
+                0x0000000000000c78       0x2c src/simply/simply_msg.c.11.o
+                0x0000000000000c78                simply_msg_send_menu_selection
  .text.received_callback
-                0x00000000000011a4       0x38 src/simply/simply_msg.c.11.o
+                0x0000000000000ca4      0x454 src/simply/simply_msg.c.11.o
  .text.simply_msg_animate_element_done
-                0x00000000000011dc       0x26 src/simply/simply_msg.c.11.o
-                0x00000000000011dc                simply_msg_animate_element_done
+                0x00000000000010f8       0x26 src/simply/simply_msg.c.11.o
+                0x00000000000010f8                simply_msg_animate_element_done
  .text.list1_remove
-                0x0000000000001202       0x32 src/simply/simply_res.c.11.o
+                0x000000000000111e       0x32 src/simply/simply_res.c.11.o
  .text.destroy_image
-                0x0000000000001234       0x18 src/simply/simply_res.c.11.o
+                0x0000000000001150       0x18 src/simply/simply_res.c.11.o
  .text.window_stack_schedule_top_window_render
-                0x000000000000124c       0x12 src/simply/simply_res.c.11.o
+                0x0000000000001168       0x12 src/simply/simply_res.c.11.o
  .text.simply_res_add_bundled_image
-                0x000000000000125e       0x6c src/simply/simply_res.c.11.o
-                0x000000000000125e                simply_res_add_bundled_image
+                0x000000000000117a       0x6c src/simply/simply_res.c.11.o
+                0x000000000000117a                simply_res_add_bundled_image
  .text.simply_res_add_image
-                0x00000000000012ca       0x9a src/simply/simply_res.c.11.o
-                0x00000000000012ca                simply_res_add_image
+                0x00000000000011e6       0x9a src/simply/simply_res.c.11.o
+                0x00000000000011e6                simply_res_add_image
  .text.simply_res_auto_image
-                0x0000000000001364       0x46 src/simply/simply_res.c.11.o
-                0x0000000000001364                simply_res_auto_image
+                0x0000000000001280       0x46 src/simply/simply_res.c.11.o
+                0x0000000000001280                simply_res_auto_image
  .text.simply_res_add_custom_font
-                0x00000000000013aa       0x3e src/simply/simply_res.c.11.o
-                0x00000000000013aa                simply_res_add_custom_font
+                0x00000000000012c6       0x3e src/simply/simply_res.c.11.o
+                0x00000000000012c6                simply_res_add_custom_font
  .text.simply_res_auto_font
-                0x00000000000013e8       0x2a src/simply/simply_res.c.11.o
-                0x00000000000013e8                simply_res_auto_font
+                0x0000000000001304       0x2a src/simply/simply_res.c.11.o
+                0x0000000000001304                simply_res_auto_font
  .text.simply_res_clear
-                0x0000000000001412       0x34 src/simply/simply_res.c.11.o
-                0x0000000000001412                simply_res_clear
+                0x000000000000132e       0x34 src/simply/simply_res.c.11.o
+                0x000000000000132e                simply_res_clear
  .text.simply_res_create
-                0x0000000000001446       0x2a src/simply/simply_res.c.11.o
-                0x0000000000001446                simply_res_create
+                0x0000000000001362       0x2a src/simply/simply_res.c.11.o
+                0x0000000000001362                simply_res_create
  .text.simply_res_destroy
-                0x0000000000001470       0x12 src/simply/simply_res.c.11.o
-                0x0000000000001470                simply_res_destroy
+                0x000000000000138c       0x12 src/simply/simply_res.c.11.o
+                0x000000000000138c                simply_res_destroy
  .text.window_load
-                0x0000000000001482       0x12 src/simply/simply_splash.c.11.o
+                0x000000000000139e       0x12 src/simply/simply_splash.c.11.o
  .text.layer_update_callback
-                0x0000000000001494       0x24 src/simply/simply_splash.c.11.o
-                0x0000000000001494                layer_update_callback
+                0x00000000000013b0       0x24 src/simply/simply_splash.c.11.o
+                0x00000000000013b0                layer_update_callback
  .text.simply_splash_create
-                0x00000000000014b8       0x7c src/simply/simply_splash.c.11.o
-                0x00000000000014b8                simply_splash_create
+                0x00000000000013d4       0x7c src/simply/simply_splash.c.11.o
+                0x00000000000013d4                simply_splash_create
  .text.simply_splash_destroy
-                0x0000000000001534       0x20 src/simply/simply_splash.c.11.o
-                0x0000000000001534                simply_splash_destroy
+                0x0000000000001450       0x20 src/simply/simply_splash.c.11.o
+                0x0000000000001450                simply_splash_destroy
  .text.window_disappear
-                0x0000000000001554       0x1a src/simply/simply_splash.c.11.o
+                0x0000000000001470       0x1a src/simply/simply_splash.c.11.o
  .text.list1_remove
-                0x000000000000156e       0x32 src/simply/simply_stage.c.11.o
+                0x000000000000148a       0x32 src/simply/simply_stage.c.11.o
  .text.element_frame_getter
-                0x00000000000015a0       0x10 src/simply/simply_stage.c.11.o
+                0x00000000000014bc       0x10 src/simply/simply_stage.c.11.o
  .text.window_unload
-                0x00000000000015b0       0x1e src/simply/simply_stage.c.11.o
- *fill*         0x00000000000015ce        0x2 
+                0x00000000000014cc       0x1e src/simply/simply_stage.c.11.o
+ *fill*         0x00000000000014ea        0x2 
  .text.window_load
-                0x00000000000015d0       0x60 src/simply/simply_stage.c.11.o
+                0x00000000000014ec       0x60 src/simply/simply_stage.c.11.o
  .text.handle_tick
-                0x0000000000001630       0x12 src/simply/simply_stage.c.11.o
-                0x0000000000001630                handle_tick
- .text.malloc0  0x0000000000001642       0x18 src/simply/simply_stage.c.11.o
+                0x000000000000154c       0x12 src/simply/simply_stage.c.11.o
+                0x000000000000154c                handle_tick
+ .text.malloc0  0x000000000000155e       0x18 src/simply/simply_stage.c.11.o
  .text.rect_element_draw_background.isra.0
-                0x000000000000165a       0x28 src/simply/simply_stage.c.11.o
+                0x0000000000001576       0x28 src/simply/simply_stage.c.11.o
  .text.rect_element_draw_border.isra.1
-                0x0000000000001682       0x2a src/simply/simply_stage.c.11.o
+                0x000000000000159e       0x2a src/simply/simply_stage.c.11.o
  .text.layer_update_callback
-                0x00000000000016ac      0x274 src/simply/simply_stage.c.11.o
+                0x00000000000015c8      0x274 src/simply/simply_stage.c.11.o
  .text.animation_stopped
-                0x0000000000001920       0x36 src/simply/simply_stage.c.11.o
- *fill*         0x0000000000001956        0x2 
+                0x000000000000183c       0x36 src/simply/simply_stage.c.11.o
+ *fill*         0x0000000000001872        0x2 
  .text.simply_stage_auto_element
-                0x0000000000001958       0x80 src/simply/simply_stage.c.11.o
-                0x0000000000001958                simply_stage_auto_element
+                0x0000000000001874       0x80 src/simply/simply_stage.c.11.o
+                0x0000000000001874                simply_stage_auto_element
  .text.simply_stage_remove_element
-                0x00000000000019d8       0x24 src/simply/simply_stage.c.11.o
-                0x00000000000019d8                simply_stage_remove_element
+                0x00000000000018f4       0x24 src/simply/simply_stage.c.11.o
+                0x00000000000018f4                simply_stage_remove_element
  .text.simply_stage_insert_element
-                0x00000000000019fc       0x44 src/simply/simply_stage.c.11.o
-                0x00000000000019fc                simply_stage_insert_element
+                0x0000000000001918       0x44 src/simply/simply_stage.c.11.o
+                0x0000000000001918                simply_stage_insert_element
  .text.simply_stage_set_element_frame
-                0x0000000000001a40       0x2e src/simply/simply_stage.c.11.o
-                0x0000000000001a40                simply_stage_set_element_frame
- *fill*         0x0000000000001a6e        0x2 
+                0x000000000000195c       0x2e src/simply/simply_stage.c.11.o
+                0x000000000000195c                simply_stage_set_element_frame
+ *fill*         0x000000000000198a        0x2 
  .text.simply_stage_animate_element
-                0x0000000000001a70       0xbc src/simply/simply_stage.c.11.o
-                0x0000000000001a70                simply_stage_animate_element
+                0x000000000000198c       0xbc src/simply/simply_stage.c.11.o
+                0x000000000000198c                simply_stage_animate_element
  .text.simply_stage_update
-                0x0000000000001b2c        0xa src/simply/simply_stage.c.11.o
-                0x0000000000001b2c                simply_stage_update
+                0x0000000000001a48        0xa src/simply/simply_stage.c.11.o
+                0x0000000000001a48                simply_stage_update
  .text.element_frame_setter
-                0x0000000000001b36       0x20 src/simply/simply_stage.c.11.o
- *fill*         0x0000000000001b56        0x2 
+                0x0000000000001a52       0x20 src/simply/simply_stage.c.11.o
+ *fill*         0x0000000000001a72        0x2 
  .text.simply_stage_update_ticker
-                0x0000000000001b58       0x2c src/simply/simply_stage.c.11.o
-                0x0000000000001b58                simply_stage_update_ticker
+                0x0000000000001a74       0x2c src/simply/simply_stage.c.11.o
+                0x0000000000001a74                simply_stage_update_ticker
  .text.window_appear
-                0x0000000000001b84       0x1c src/simply/simply_stage.c.11.o
+                0x0000000000001aa0       0x1c src/simply/simply_stage.c.11.o
  .text.simply_stage_clear
-                0x0000000000001ba0       0x62 src/simply/simply_stage.c.11.o
-                0x0000000000001ba0                simply_stage_clear
+                0x0000000000001abc       0x62 src/simply/simply_stage.c.11.o
+                0x0000000000001abc                simply_stage_clear
  .text.window_disappear
-                0x0000000000001c02       0x24 src/simply/simply_stage.c.11.o
- *fill*         0x0000000000001c26        0x2 
+                0x0000000000001b1e       0x1c src/simply/simply_stage.c.11.o
+ *fill*         0x0000000000001b3a        0x2 
  .text.simply_stage_create
-                0x0000000000001c28       0x58 src/simply/simply_stage.c.11.o
-                0x0000000000001c28                simply_stage_create
+                0x0000000000001b3c       0x58 src/simply/simply_stage.c.11.o
+                0x0000000000001b3c                simply_stage_create
  .text.simply_stage_destroy
-                0x0000000000001c80       0x16 src/simply/simply_stage.c.11.o
-                0x0000000000001c80                simply_stage_destroy
+                0x0000000000001b94       0x16 src/simply/simply_stage.c.11.o
+                0x0000000000001b94                simply_stage_destroy
  .text.window_unload
-                0x0000000000001c96       0x1e src/simply/simply_ui.c.11.o
+                0x0000000000001baa       0x1e src/simply/simply_ui.c.11.o
  .text.window_disappear
-                0x0000000000001cb4       0x1e src/simply/simply_ui.c.11.o
+                0x0000000000001bc8       0x14 src/simply/simply_ui.c.11.o
  .text.window_appear
-                0x0000000000001cd2       0x14 src/simply/simply_ui.c.11.o
+                0x0000000000001bdc       0x14 src/simply/simply_ui.c.11.o
  .text.graphics_draw_bitmap_centered
-                0x0000000000001ce6       0x4e src/simply/simply_ui.c.11.o
+                0x0000000000001bf0       0x4e src/simply/simply_ui.c.11.o
  .text.show_welcome_text
-                0x0000000000001d34       0x18 src/simply/simply_ui.c.11.o
+                0x0000000000001c3e       0x18 src/simply/simply_ui.c.11.o
+ *fill*         0x0000000000001c56        0x2 
  .text.layer_update_callback
-                0x0000000000001d4c      0x474 src/simply/simply_ui.c.11.o
+                0x0000000000001c58      0x474 src/simply/simply_ui.c.11.o
  .text.simply_ui_set_style
-                0x00000000000021c0       0x38 src/simply/simply_ui.c.11.o
-                0x00000000000021c0                simply_ui_set_style
+                0x00000000000020cc       0x38 src/simply/simply_ui.c.11.o
+                0x00000000000020cc                simply_ui_set_style
  .text.window_load
-                0x00000000000021f8       0x68 src/simply/simply_ui.c.11.o
+                0x0000000000002104       0x68 src/simply/simply_ui.c.11.o
  .text.simply_ui_set_text
-                0x0000000000002260       0x6a src/simply/simply_ui.c.11.o
-                0x0000000000002260                simply_ui_set_text
+                0x000000000000216c       0x6a src/simply/simply_ui.c.11.o
+                0x000000000000216c                simply_ui_set_text
  .text.simply_ui_clear
-                0x00000000000022ca       0x4a src/simply/simply_ui.c.11.o
-                0x00000000000022ca                simply_ui_clear
+                0x00000000000021d6       0x4a src/simply/simply_ui.c.11.o
+                0x00000000000021d6                simply_ui_clear
  .text.simply_ui_create
-                0x0000000000002314       0x68 src/simply/simply_ui.c.11.o
-                0x0000000000002314                simply_ui_create
+                0x0000000000002220       0x68 src/simply/simply_ui.c.11.o
+                0x0000000000002220                simply_ui_create
  .text.simply_ui_destroy
-                0x000000000000237c       0x2a src/simply/simply_ui.c.11.o
-                0x000000000000237c                simply_ui_destroy
+                0x0000000000002288       0x2a src/simply/simply_ui.c.11.o
+                0x0000000000002288                simply_ui_destroy
  .text.long_click_handler
-                0x00000000000023a6       0x2a src/simply/simply_window.c.11.o
+                0x00000000000022b2       0x2a src/simply/simply_window.c.11.o
  .text.simply_window_single_click_handler
-                0x00000000000023d0       0x50 src/simply/simply_window.c.11.o
-                0x00000000000023d0                simply_window_single_click_handler
+                0x00000000000022dc       0x50 src/simply/simply_window.c.11.o
+                0x00000000000022dc                simply_window_single_click_handler
  .text.scroll_layer_set_click_config_provider_onto_window.constprop.1
-                0x0000000000002420       0x30 src/simply/simply_window.c.11.o
+                0x000000000000232c       0x30 src/simply/simply_window.c.11.o
  .text.click_config_provider
-                0x0000000000002450       0x78 src/simply/simply_window.c.11.o
+                0x000000000000235c       0x78 src/simply/simply_window.c.11.o
  .text.simply_window_set_scrollable
-                0x00000000000024c8       0x6a src/simply/simply_window.c.11.o
-                0x00000000000024c8                simply_window_set_scrollable
+                0x00000000000023d4       0x6a src/simply/simply_window.c.11.o
+                0x00000000000023d4                simply_window_set_scrollable
  .text.simply_window_set_fullscreen
-                0x0000000000002532       0x68 src/simply/simply_window.c.11.o
-                0x0000000000002532                simply_window_set_fullscreen
+                0x000000000000243e       0x68 src/simply/simply_window.c.11.o
+                0x000000000000243e                simply_window_set_fullscreen
  .text.simply_window_set_background_color
-                0x000000000000259a        0xa src/simply/simply_window.c.11.o
-                0x000000000000259a                simply_window_set_background_color
+                0x00000000000024a6        0xa src/simply/simply_window.c.11.o
+                0x00000000000024a6                simply_window_set_background_color
  .text.simply_window_set_action_bar
-                0x00000000000025a4       0x48 src/simply/simply_window.c.11.o
-                0x00000000000025a4                simply_window_set_action_bar
+                0x00000000000024b0       0x48 src/simply/simply_window.c.11.o
+                0x00000000000024b0                simply_window_set_action_bar
  .text.simply_window_set_action_bar_icon
-                0x00000000000025ec       0x3a src/simply/simply_window.c.11.o
-                0x00000000000025ec                simply_window_set_action_bar_icon
+                0x00000000000024f8       0x3a src/simply/simply_window.c.11.o
+                0x00000000000024f8                simply_window_set_action_bar_icon
  .text.simply_window_set_action_bar_background_color
-                0x0000000000002626       0x1a src/simply/simply_window.c.11.o
-                0x0000000000002626                simply_window_set_action_bar_background_color
+                0x0000000000002532       0x1a src/simply/simply_window.c.11.o
+                0x0000000000002532                simply_window_set_action_bar_background_color
  .text.simply_window_action_bar_clear
-                0x0000000000002640       0x26 src/simply/simply_window.c.11.o
-                0x0000000000002640                simply_window_action_bar_clear
+                0x000000000000254c       0x26 src/simply/simply_window.c.11.o
+                0x000000000000254c                simply_window_action_bar_clear
  .text.simply_window_load
-                0x0000000000002666       0x50 src/simply/simply_window.c.11.o
-                0x0000000000002666                simply_window_load
+                0x0000000000002572       0x50 src/simply/simply_window.c.11.o
+                0x0000000000002572                simply_window_load
  .text.simply_window_unload
-                0x00000000000026b6       0x10 src/simply/simply_window.c.11.o
-                0x00000000000026b6                simply_window_unload
- *fill*         0x00000000000026c6        0x2 
+                0x00000000000025c2       0x10 src/simply/simply_window.c.11.o
+                0x00000000000025c2                simply_window_unload
+ *fill*         0x00000000000025d2        0x2 
  .text.simply_window_init
-                0x00000000000026c8       0x40 src/simply/simply_window.c.11.o
-                0x00000000000026c8                simply_window_init
+                0x00000000000025d4       0x40 src/simply/simply_window.c.11.o
+                0x00000000000025d4                simply_window_init
  .text.simply_window_deinit
-                0x0000000000002708       0x1a src/simply/simply_window.c.11.o
-                0x0000000000002708                simply_window_deinit
+                0x0000000000002614       0x1a src/simply/simply_window.c.11.o
+                0x0000000000002614                simply_window_deinit
  .text.simply_window_stack_show
-                0x0000000000002722       0x4e src/simply/simply_window_stack.c.11.o
-                0x0000000000002722                simply_window_stack_show
+                0x000000000000262e       0x4e src/simply/simply_window_stack.c.11.o
+                0x000000000000262e                simply_window_stack_show
  .text.simply_window_stack_pop
-                0x0000000000002770       0x26 src/simply/simply_window_stack.c.11.o
-                0x0000000000002770                simply_window_stack_pop
+                0x000000000000267c       0x26 src/simply/simply_window_stack.c.11.o
+                0x000000000000267c                simply_window_stack_pop
  .text.simply_window_stack_send_show
-                0x0000000000002796       0x12 src/simply/simply_window_stack.c.11.o
-                0x0000000000002796                simply_window_stack_send_show
+                0x00000000000026a2       0x12 src/simply/simply_window_stack.c.11.o
+                0x00000000000026a2                simply_window_stack_send_show
  .text.simply_window_stack_send_hide
-                0x00000000000027a8       0x2a src/simply/simply_window_stack.c.11.o
-                0x00000000000027a8                simply_window_stack_send_hide
+                0x00000000000026b4       0x2a src/simply/simply_window_stack.c.11.o
+                0x00000000000026b4                simply_window_stack_send_hide
  .text.simply_window_stack_back
-                0x00000000000027d2       0x1a src/simply/simply_window_stack.c.11.o
-                0x00000000000027d2                simply_window_stack_back
+                0x00000000000026de       0x1a src/simply/simply_window_stack.c.11.o
+                0x00000000000026de                simply_window_stack_back
  .text.simply_window_stack_create
-                0x00000000000027ec       0x20 src/simply/simply_window_stack.c.11.o
-                0x00000000000027ec                simply_window_stack_create
+                0x00000000000026f8       0x20 src/simply/simply_window_stack.c.11.o
+                0x00000000000026f8                simply_window_stack_create
  .text.simply_window_stack_destroy
-                0x000000000000280c       0x1c src/simply/simply_window_stack.c.11.o
-                0x000000000000280c                simply_window_stack_destroy
+                0x0000000000002718       0x1c src/simply/simply_window_stack.c.11.o
+                0x0000000000002718                simply_window_stack_destroy
  .text.accel_data_service_unsubscribe
-                0x0000000000002828        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002828                accel_data_service_unsubscribe
+                0x0000000000002734        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002734                accel_data_service_unsubscribe
  .text.accel_service_peek
-                0x0000000000002834        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002834                accel_service_peek
+                0x0000000000002740        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002740                accel_service_peek
  .text.accel_service_set_sampling_rate
-                0x0000000000002840        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002840                accel_service_set_sampling_rate
+                0x000000000000274c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000274c                accel_service_set_sampling_rate
  .text.accel_tap_service_subscribe
-                0x000000000000284c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000284c                accel_tap_service_subscribe
+                0x0000000000002758        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002758                accel_tap_service_subscribe
  .text.accel_tap_service_unsubscribe
-                0x0000000000002858        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002858                accel_tap_service_unsubscribe
+                0x0000000000002764        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002764                accel_tap_service_unsubscribe
  .text.action_bar_layer_add_to_window
-                0x0000000000002864        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002864                action_bar_layer_add_to_window
+                0x0000000000002770        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002770                action_bar_layer_add_to_window
  .text.action_bar_layer_clear_icon
-                0x0000000000002870        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002870                action_bar_layer_clear_icon
+                0x000000000000277c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000277c                action_bar_layer_clear_icon
  .text.action_bar_layer_create
-                0x000000000000287c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000287c                action_bar_layer_create
+                0x0000000000002788        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002788                action_bar_layer_create
  .text.action_bar_layer_destroy
-                0x0000000000002888        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002888                action_bar_layer_destroy
+                0x0000000000002794        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002794                action_bar_layer_destroy
  .text.action_bar_layer_remove_from_window
-                0x0000000000002894        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002894                action_bar_layer_remove_from_window
+                0x00000000000027a0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027a0                action_bar_layer_remove_from_window
  .text.action_bar_layer_set_background_color
-                0x00000000000028a0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028a0                action_bar_layer_set_background_color
+                0x00000000000027ac        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027ac                action_bar_layer_set_background_color
  .text.action_bar_layer_set_click_config_provider
-                0x00000000000028ac        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028ac                action_bar_layer_set_click_config_provider
+                0x00000000000027b8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027b8                action_bar_layer_set_click_config_provider
  .text.action_bar_layer_set_context
-                0x00000000000028b8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028b8                action_bar_layer_set_context
+                0x00000000000027c4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027c4                action_bar_layer_set_context
  .text.action_bar_layer_set_icon
-                0x00000000000028c4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028c4                action_bar_layer_set_icon
+                0x00000000000027d0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027d0                action_bar_layer_set_icon
  .text.animation_schedule
-                0x00000000000028d0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028d0                animation_schedule
+                0x00000000000027dc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027dc                animation_schedule
  .text.animation_set_curve
-                0x00000000000028dc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028dc                animation_set_curve
+                0x00000000000027e8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027e8                animation_set_curve
  .text.animation_set_duration
-                0x00000000000028e8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028e8                animation_set_duration
+                0x00000000000027f4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000027f4                animation_set_duration
  .text.animation_set_handlers
-                0x00000000000028f4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000028f4                animation_set_handlers
+                0x0000000000002800        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002800                animation_set_handlers
  .text.animation_unschedule
-                0x0000000000002900        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002900                animation_unschedule
+                0x000000000000280c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000280c                animation_unschedule
  .text.app_event_loop
-                0x000000000000290c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000290c                app_event_loop
+                0x0000000000002818        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002818                app_event_loop
  .text.app_message_deregister_callbacks
-                0x0000000000002918        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002918                app_message_deregister_callbacks
+                0x0000000000002824        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002824                app_message_deregister_callbacks
  .text.app_message_open
-                0x0000000000002924        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002924                app_message_open
+                0x0000000000002830        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002830                app_message_open
  .text.app_timer_cancel
-                0x0000000000002930        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002930                app_timer_cancel
+                0x000000000000283c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000283c                app_timer_cancel
  .text.app_timer_register
-                0x000000000000293c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000293c                app_timer_register
+                0x0000000000002848        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002848                app_timer_register
  .text.click_recognizer_get_button_id
-                0x0000000000002948        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002948                click_recognizer_get_button_id
+                0x0000000000002854        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002854                click_recognizer_get_button_id
  .text.dict_find
-                0x0000000000002954        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002954                dict_find
+                0x0000000000002860        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002860                dict_find
  .text.dict_write_data
-                0x0000000000002960        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002960                dict_write_data
+                0x000000000000286c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000286c                dict_write_data
  .text.fonts_get_system_font
-                0x000000000000296c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000296c                fonts_get_system_font
+                0x0000000000002878        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002878                fonts_get_system_font
  .text.fonts_load_custom_font
-                0x0000000000002978        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002978                fonts_load_custom_font
+                0x0000000000002884        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002884                fonts_load_custom_font
  .text.fonts_unload_custom_font
-                0x0000000000002984        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002984                fonts_unload_custom_font
- .text.free     0x0000000000002990        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002990                free
+                0x0000000000002890        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002890                fonts_unload_custom_font
+ .text.free     0x000000000000289c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000289c                free
  .text.gbitmap_create_with_resource
-                0x000000000000299c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x000000000000299c                gbitmap_create_with_resource
+                0x00000000000028a8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028a8                gbitmap_create_with_resource
  .text.gbitmap_destroy
-                0x00000000000029a8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029a8                gbitmap_destroy
+                0x00000000000028b4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028b4                gbitmap_destroy
  .text.graphics_context_set_compositing_mode
-                0x00000000000029b4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029b4                graphics_context_set_compositing_mode
+                0x00000000000028c0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028c0                graphics_context_set_compositing_mode
  .text.graphics_context_set_fill_color
-                0x00000000000029c0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029c0                graphics_context_set_fill_color
+                0x00000000000028cc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028cc                graphics_context_set_fill_color
  .text.graphics_context_set_stroke_color
-                0x00000000000029cc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029cc                graphics_context_set_stroke_color
+                0x00000000000028d8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028d8                graphics_context_set_stroke_color
  .text.graphics_context_set_text_color
-                0x00000000000029d8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029d8                graphics_context_set_text_color
+                0x00000000000028e4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028e4                graphics_context_set_text_color
  .text.graphics_draw_bitmap_in_rect
-                0x00000000000029e4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029e4                graphics_draw_bitmap_in_rect
+                0x00000000000028f0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028f0                graphics_draw_bitmap_in_rect
  .text.graphics_draw_circle
-                0x00000000000029f0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029f0                graphics_draw_circle
+                0x00000000000028fc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000028fc                graphics_draw_circle
  .text.graphics_draw_round_rect
-                0x00000000000029fc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x00000000000029fc                graphics_draw_round_rect
+                0x0000000000002908        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002908                graphics_draw_round_rect
  .text.graphics_fill_circle
-                0x0000000000002a08        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a08                graphics_fill_circle
+                0x0000000000002914        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002914                graphics_fill_circle
  .text.graphics_fill_rect
-                0x0000000000002a14        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a14                graphics_fill_rect
+                0x0000000000002920        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002920                graphics_fill_rect
  .text.inverter_layer_create
-                0x0000000000002a20        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a20                inverter_layer_create
+                0x000000000000292c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000292c                inverter_layer_create
  .text.inverter_layer_destroy
-                0x0000000000002a2c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a2c                inverter_layer_destroy
+                0x0000000000002938        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002938                inverter_layer_destroy
  .text.inverter_layer_get_layer
-                0x0000000000002a38        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a38                inverter_layer_get_layer
+                0x0000000000002944        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002944                inverter_layer_get_layer
  .text.layer_add_child
-                0x0000000000002a44        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a44                layer_add_child
+                0x0000000000002950        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002950                layer_add_child
  .text.layer_create_with_data
-                0x0000000000002a50        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a50                layer_create_with_data
+                0x000000000000295c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000295c                layer_create_with_data
  .text.layer_destroy
-                0x0000000000002a5c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a5c                layer_destroy
+                0x0000000000002968        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002968                layer_destroy
  .text.layer_get_bounds
-                0x0000000000002a68        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a68                layer_get_bounds
+                0x0000000000002974        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002974                layer_get_bounds
  .text.layer_get_data
-                0x0000000000002a74        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a74                layer_get_data
+                0x0000000000002980        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002980                layer_get_data
  .text.layer_get_frame
-                0x0000000000002a80        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a80                layer_get_frame
+                0x000000000000298c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x000000000000298c                layer_get_frame
  .text.layer_get_window
-                0x0000000000002a8c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a8c                layer_get_window
+                0x0000000000002998        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002998                layer_get_window
  .text.layer_mark_dirty
-                0x0000000000002a98        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002a98                layer_mark_dirty
+                0x00000000000029a4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029a4                layer_mark_dirty
  .text.layer_remove_from_parent
-                0x0000000000002aa4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002aa4                layer_remove_from_parent
+                0x00000000000029b0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029b0                layer_remove_from_parent
  .text.layer_set_bounds
-                0x0000000000002ab0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ab0                layer_set_bounds
+                0x00000000000029bc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029bc                layer_set_bounds
  .text.layer_set_frame
-                0x0000000000002abc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002abc                layer_set_frame
+                0x00000000000029c8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029c8                layer_set_frame
  .text.layer_set_update_proc
-                0x0000000000002ac8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ac8                layer_set_update_proc
+                0x00000000000029d4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029d4                layer_set_update_proc
  .text.localtime
-                0x0000000000002ad4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ad4                localtime
- .text.malloc   0x0000000000002ae0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ae0                malloc
- .text.memcpy   0x0000000000002aec        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002aec                memcpy
- .text.memset   0x0000000000002af8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002af8                memset
+                0x00000000000029e0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029e0                localtime
+ .text.malloc   0x00000000000029ec        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029ec                malloc
+ .text.memcpy   0x00000000000029f8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000029f8                memcpy
+ .text.memset   0x0000000000002a04        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a04                memset
  .text.menu_cell_basic_draw
-                0x0000000000002b04        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b04                menu_cell_basic_draw
+                0x0000000000002a10        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a10                menu_cell_basic_draw
  .text.menu_cell_basic_header_draw
-                0x0000000000002b10        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b10                menu_cell_basic_header_draw
+                0x0000000000002a1c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a1c                menu_cell_basic_header_draw
  .text.menu_layer_create
-                0x0000000000002b1c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b1c                menu_layer_create
+                0x0000000000002a28        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a28                menu_layer_create
  .text.menu_layer_destroy
-                0x0000000000002b28        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b28                menu_layer_destroy
+                0x0000000000002a34        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a34                menu_layer_destroy
  .text.menu_layer_get_layer
-                0x0000000000002b34        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b34                menu_layer_get_layer
+                0x0000000000002a40        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a40                menu_layer_get_layer
  .text.menu_layer_get_selected_index
-                0x0000000000002b40        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b40                menu_layer_get_selected_index
+                0x0000000000002a4c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a4c                menu_layer_get_selected_index
  .text.menu_layer_reload_data
-                0x0000000000002b4c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b4c                menu_layer_reload_data
+                0x0000000000002a58        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a58                menu_layer_reload_data
  .text.menu_layer_set_click_config_onto_window
-                0x0000000000002b58        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b58                menu_layer_set_click_config_onto_window
+                0x0000000000002a64        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a64                menu_layer_set_click_config_onto_window
  .text.menu_layer_set_selected_index
-                0x0000000000002b64        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b64                menu_layer_set_selected_index
+                0x0000000000002a70        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a70                menu_layer_set_selected_index
  .text.property_animation_create
-                0x0000000000002b70        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b70                property_animation_create
+                0x0000000000002a7c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a7c                property_animation_create
  .text.property_animation_update_grect
-                0x0000000000002b7c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b7c                property_animation_update_grect
+                0x0000000000002a88        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a88                property_animation_update_grect
  .text.resource_get_handle
-                0x0000000000002b88        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b88                resource_get_handle
+                0x0000000000002a94        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002a94                resource_get_handle
  .text.scroll_layer_add_child
-                0x0000000000002b94        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002b94                scroll_layer_add_child
+                0x0000000000002aa0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002aa0                scroll_layer_add_child
  .text.scroll_layer_create
-                0x0000000000002ba0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ba0                scroll_layer_create
+                0x0000000000002aac        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002aac                scroll_layer_create
  .text.scroll_layer_destroy
-                0x0000000000002bac        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bac                scroll_layer_destroy
+                0x0000000000002ab8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ab8                scroll_layer_destroy
  .text.scroll_layer_get_content_offset
-                0x0000000000002bb8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bb8                scroll_layer_get_content_offset
+                0x0000000000002ac4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ac4                scroll_layer_get_content_offset
  .text.scroll_layer_get_layer
-                0x0000000000002bc4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bc4                scroll_layer_get_layer
+                0x0000000000002ad0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ad0                scroll_layer_get_layer
  .text.scroll_layer_set_click_config_onto_window
-                0x0000000000002bd0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bd0                scroll_layer_set_click_config_onto_window
+                0x0000000000002adc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002adc                scroll_layer_set_click_config_onto_window
  .text.scroll_layer_set_content_offset
-                0x0000000000002bdc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bdc                scroll_layer_set_content_offset
+                0x0000000000002ae8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ae8                scroll_layer_set_content_offset
  .text.scroll_layer_set_content_size
-                0x0000000000002be8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002be8                scroll_layer_set_content_size
+                0x0000000000002af4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002af4                scroll_layer_set_content_size
  .text.scroll_layer_set_context
-                0x0000000000002bf4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002bf4                scroll_layer_set_context
+                0x0000000000002b00        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b00                scroll_layer_set_context
  .text.scroll_layer_set_frame
-                0x0000000000002c00        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c00                scroll_layer_set_frame
+                0x0000000000002b0c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b0c                scroll_layer_set_frame
  .text.strftime
-                0x0000000000002c0c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c0c                strftime
- .text.strlen   0x0000000000002c18        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c18                strlen
- .text.strncpy  0x0000000000002c24        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c24                strncpy
+                0x0000000000002b18        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b18                strftime
+ .text.strlen   0x0000000000002b24        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b24                strlen
+ .text.strncpy  0x0000000000002b30        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b30                strncpy
  .text.tick_timer_service_subscribe
-                0x0000000000002c30        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c30                tick_timer_service_subscribe
+                0x0000000000002b3c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b3c                tick_timer_service_subscribe
  .text.tick_timer_service_unsubscribe
-                0x0000000000002c3c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c3c                tick_timer_service_unsubscribe
- .text.time     0x0000000000002c48        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c48                time
+                0x0000000000002b48        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b48                tick_timer_service_unsubscribe
+ .text.time     0x0000000000002b54        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b54                time
  .text.vibes_double_pulse
-                0x0000000000002c54        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c54                vibes_double_pulse
- .text.vibes_long_pulse
-                0x0000000000002c60        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c60                vibes_long_pulse
+                0x0000000000002b60        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b60                vibes_double_pulse
  .text.vibes_short_pulse
-                0x0000000000002c6c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c6c                vibes_short_pulse
+                0x0000000000002b6c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b6c                vibes_short_pulse
  .text.window_create
-                0x0000000000002c78        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c78                window_create
+                0x0000000000002b78        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b78                window_create
  .text.window_destroy
-                0x0000000000002c84        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c84                window_destroy
+                0x0000000000002b84        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b84                window_destroy
  .text.window_get_click_config_provider
-                0x0000000000002c90        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c90                window_get_click_config_provider
+                0x0000000000002b90        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b90                window_get_click_config_provider
  .text.window_get_root_layer
-                0x0000000000002c9c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002c9c                window_get_root_layer
+                0x0000000000002b9c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002b9c                window_get_root_layer
  .text.window_set_background_color
-                0x0000000000002ca8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ca8                window_set_background_color
+                0x0000000000002ba8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ba8                window_set_background_color
  .text.window_set_click_config_provider_with_context
-                0x0000000000002cb4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002cb4                window_set_click_config_provider_with_context
+                0x0000000000002bb4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bb4                window_set_click_config_provider_with_context
  .text.window_set_fullscreen
-                0x0000000000002cc0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002cc0                window_set_fullscreen
+                0x0000000000002bc0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bc0                window_set_fullscreen
  .text.window_set_window_handlers
-                0x0000000000002ccc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ccc                window_set_window_handlers
+                0x0000000000002bcc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bcc                window_set_window_handlers
  .text.window_stack_contains_window
-                0x0000000000002cd8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002cd8                window_stack_contains_window
+                0x0000000000002bd8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bd8                window_stack_contains_window
  .text.window_stack_get_top_window
-                0x0000000000002ce4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002ce4                window_stack_get_top_window
+                0x0000000000002be4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002be4                window_stack_get_top_window
  .text.window_stack_pop
-                0x0000000000002cf0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002cf0                window_stack_pop
+                0x0000000000002bf0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bf0                window_stack_pop
  .text.window_stack_pop_all
-                0x0000000000002cfc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002cfc                window_stack_pop_all
+                0x0000000000002bfc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002bfc                window_stack_pop_all
  .text.window_stack_push
-                0x0000000000002d08        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d08                window_stack_push
+                0x0000000000002c08        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c08                window_stack_push
  .text.window_stack_remove
-                0x0000000000002d14        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d14                window_stack_remove
+                0x0000000000002c14        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c14                window_stack_remove
  .text.window_get_user_data
-                0x0000000000002d20        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d20                window_get_user_data
+                0x0000000000002c20        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c20                window_get_user_data
  .text.window_set_user_data
-                0x0000000000002d2c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d2c                window_set_user_data
+                0x0000000000002c2c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c2c                window_set_user_data
  .text.app_message_outbox_begin
-                0x0000000000002d38        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d38                app_message_outbox_begin
+                0x0000000000002c38        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c38                app_message_outbox_begin
  .text.app_message_outbox_send
-                0x0000000000002d44        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d44                app_message_outbox_send
+                0x0000000000002c44        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c44                app_message_outbox_send
  .text.app_message_register_inbox_dropped
-                0x0000000000002d50        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d50                app_message_register_inbox_dropped
+                0x0000000000002c50        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c50                app_message_register_inbox_dropped
  .text.app_message_register_inbox_received
-                0x0000000000002d5c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d5c                app_message_register_inbox_received
+                0x0000000000002c5c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c5c                app_message_register_inbox_received
  .text.app_message_register_outbox_failed
-                0x0000000000002d68        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d68                app_message_register_outbox_failed
+                0x0000000000002c68        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c68                app_message_register_outbox_failed
  .text.app_message_register_outbox_sent
-                0x0000000000002d74        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d74                app_message_register_outbox_sent
+                0x0000000000002c74        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c74                app_message_register_outbox_sent
  .text.app_message_set_context
-                0x0000000000002d80        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d80                app_message_set_context
+                0x0000000000002c80        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c80                app_message_set_context
  .text.window_long_click_subscribe
-                0x0000000000002d8c        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d8c                window_long_click_subscribe
+                0x0000000000002c8c        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c8c                window_long_click_subscribe
  .text.window_set_click_context
-                0x0000000000002d98        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002d98                window_set_click_context
+                0x0000000000002c98        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002c98                window_set_click_context
  .text.window_single_click_subscribe
-                0x0000000000002da4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002da4                window_single_click_subscribe
+                0x0000000000002ca4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002ca4                window_single_click_subscribe
  .text.graphics_draw_text
-                0x0000000000002db0        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002db0                graphics_draw_text
+                0x0000000000002cb0        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002cb0                graphics_draw_text
  .text.graphics_text_layout_get_content_size
-                0x0000000000002dbc        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002dbc                graphics_text_layout_get_content_size
+                0x0000000000002cbc        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002cbc                graphics_text_layout_get_content_size
  .text.accel_data_service_subscribe
-                0x0000000000002dc8        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002dc8                accel_data_service_subscribe
+                0x0000000000002cc8        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002cc8                accel_data_service_subscribe
  .text.menu_layer_set_callbacks
-                0x0000000000002dd4        0xc /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
-                0x0000000000002dd4                menu_layer_set_callbacks
+                0x0000000000002cd4        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x0000000000002cd4                menu_layer_set_callbacks
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x0000000000002de0       0x26 src/simply/simply_msg.c.11.o
+                0x0000000000002ce0       0x26 src/simply/simply_msg.c.11.o
  .rodata.str1.1
-                0x0000000000002e06       0x16 src/simply/simply_stage.c.11.o
+                0x0000000000002d06       0x16 src/simply/simply_stage.c.11.o
  .rodata.str1.1
-                0x0000000000002e1c       0x7d src/simply/simply_ui.c.11.o
+                0x0000000000002d1c       0x7d src/simply/simply_ui.c.11.o
 
-.glue_7         0x0000000000002e9c        0x0
+.glue_7         0x0000000000002d9c        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000002e9c        0x0
+.glue_7t        0x0000000000002d9c        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000002e9c        0x0
+.vfp11_veneer   0x0000000000002d9c        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000002e9c        0x0
+.v4_bx          0x0000000000002d9c        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000000002e9c        0x0
- .iplt          0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.iplt           0x0000000000002d9c        0x0
+ .iplt          0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x0000000000002e9c        0x0
- .rel.iplt      0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.rel.dyn        0x0000000000002d9c        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .rel.got       0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x0000000000002e9c       0x7c
+.data           0x0000000000002d9c       0x7c
  *(.data)
- .data          0x0000000000002e9c        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x0000000000002e9c        0x4 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000002e9c                __dso_handle
- .data          0x0000000000002ea0        0x0 src/main.c.11.o
- .data          0x0000000000002ea0        0x0 src/simply/simply.c.11.o
- .data          0x0000000000002ea0        0x0 src/simply/simply_accel.c.11.o
- .data          0x0000000000002ea0       0x10 src/simply/simply_menu.c.11.o
- .data          0x0000000000002eb0        0x0 src/simply/simply_msg.c.11.o
- .data          0x0000000000002eb0        0x0 src/simply/simply_res.c.11.o
- .data          0x0000000000002eb0        0x0 src/simply/simply_splash.c.11.o
- .data          0x0000000000002eb0       0x10 src/simply/simply_stage.c.11.o
- .data          0x0000000000002ec0       0x10 src/simply/simply_ui.c.11.o
- .data          0x0000000000002ed0        0x0 src/simply/simply_window.c.11.o
- .data          0x0000000000002ed0        0x0 src/simply/simply_window_stack.c.11.o
- .data          0x0000000000002ed0        0x0 appinfo.auto.c.11.o
- .data          0x0000000000002ed0        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
- .data          0x0000000000002ed0        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000002ed0        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000002d9c        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000002d9c        0x4 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000002d9c                __dso_handle
+ .data          0x0000000000002da0        0x0 src/main.c.11.o
+ .data          0x0000000000002da0        0x0 src/simply/simply.c.11.o
+ .data          0x0000000000002da0        0x0 src/simply/simply_accel.c.11.o
+ .data          0x0000000000002da0       0x10 src/simply/simply_menu.c.11.o
+ .data          0x0000000000002db0        0x0 src/simply/simply_msg.c.11.o
+ .data          0x0000000000002db0        0x0 src/simply/simply_res.c.11.o
+ .data          0x0000000000002db0        0x0 src/simply/simply_splash.c.11.o
+ .data          0x0000000000002db0       0x10 src/simply/simply_stage.c.11.o
+ .data          0x0000000000002dc0       0x10 src/simply/simply_ui.c.11.o
+ .data          0x0000000000002dd0        0x0 src/simply/simply_window.c.11.o
+ .data          0x0000000000002dd0        0x0 src/simply/simply_window_stack.c.11.o
+ .data          0x0000000000002dd0        0x0 src/strap/accl.c.11.o
+ .data          0x0000000000002dd0        0x0 src/strap/strap.c.11.o
+ .data          0x0000000000002dd0        0x0 appinfo.auto.c.11.o
+ .data          0x0000000000002dd0        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .data          0x0000000000002dd0        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000002dd0        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
  .data.s_broadcast_window
-                0x0000000000002ed0        0x1 src/simply/simply_msg.c.11.o
- *fill*         0x0000000000002ed1        0x3 
- .data.rel.ro.implementation.7285
-                0x0000000000002ed4       0x14 src/simply/simply_stage.c.11.o
+                0x0000000000002dd0        0x1 src/simply/simply_msg.c.11.o
+ *fill*         0x0000000000002dd1        0x3 
+ .data.rel.ro.implementation.7284
+                0x0000000000002dd4       0x14 src/simply/simply_stage.c.11.o
  .data.rel.local.STYLES
-                0x0000000000002ee8       0x30 src/simply/simply_ui.c.11.o
+                0x0000000000002de8       0x30 src/simply/simply_ui.c.11.o
 
-.igot.plt       0x0000000000002f18        0x0
- .igot.plt      0x0000000000000000        0x0 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.igot.plt       0x0000000000002e18        0x0
+ .igot.plt      0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x0000000000002f18      0x114
+.got            0x0000000000002e18        0x0
+ .got           0x0000000000000000        0x0 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.got.plt        0x0000000000002e18        0xc
+ .got.plt       0x0000000000002e18        0xc /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000002e18                _GLOBAL_OFFSET_TABLE_
+
+.bss            0x0000000000002e24      0x114
  *(.bss)
  *(.bss.*)
- .bss.s_accel   0x0000000000002f18        0x4 src/simply/simply_accel.c.11.o
-                0x0000000000002f18                s_accel
+ .bss.s_accel   0x0000000000002e24        0x4 src/simply/simply_accel.c.11.o
+                0x0000000000002e24                s_accel
  .bss.EMPTY_TITLE
-                0x0000000000002f1c        0x1 src/simply/simply_menu.c.11.o
- *fill*         0x0000000000002f1d        0x3 
- .bss.s_provider.7038
-                0x0000000000002f20        0x4 src/simply/simply_menu.c.11.o
+                0x0000000000002e28        0x1 src/simply/simply_menu.c.11.o
+ *fill*         0x0000000000002e29        0x3 
+ .bss.s_provider.7037
+                0x0000000000002e2c        0x4 src/simply/simply_menu.c.11.o
  .bss.s_has_communicated
-                0x0000000000002f24        0x1 src/simply/simply_msg.c.11.o
- .bss.time_text.7186
-                0x0000000000002f25      0x100 src/simply/simply_stage.c.11.o
- *fill*         0x0000000000003025        0x3 
- .bss.s_provider.7048
-                0x0000000000003028        0x4 src/simply/simply_window.c.11.o
+                0x0000000000002e30        0x1 src/simply/simply_msg.c.11.o
+ .bss.time_text.7185
+                0x0000000000002e31      0x100 src/simply/simply_stage.c.11.o
+ *fill*         0x0000000000002f31        0x3 
+ .bss.s_provider.7047
+                0x0000000000002f34        0x4 src/simply/simply_window.c.11.o
 
 DISCARD
  libc.a(*)
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/Mihir/transferWearPebble/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
  .ARM.attributes
-                0x0000000000000000       0x19 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+                0x0000000000000000       0x19 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
  .ARM.attributes
-                0x0000000000000019       0x29 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000019       0x29 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .ARM.attributes
                 0x0000000000000042       0x33 src/main.c.11.o
  .ARM.attributes
@@ -1399,16 +1505,20 @@ OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build/peb
  .ARM.attributes
                 0x0000000000000240       0x33 src/simply/simply_window_stack.c.11.o
  .ARM.attributes
-                0x0000000000000273       0x33 appinfo.auto.c.11.o
+                0x0000000000000273       0x33 src/strap/accl.c.11.o
  .ARM.attributes
-                0x00000000000002a6       0x21 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+                0x00000000000002a6       0x33 src/strap/strap.c.11.o
  .ARM.attributes
-                0x00000000000002c7       0x29 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+                0x00000000000002d9       0x33 appinfo.auto.c.11.o
  .ARM.attributes
-                0x00000000000002f0       0x19 /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+                0x000000000000030c       0x21 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/Pebble/lib/libpebble.a(tmpL9Cjnwpebble.o)
+ .ARM.attributes
+                0x000000000000032d       0x29 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .ARM.attributes
+                0x0000000000000356       0x19 /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
 
 .comment        0x0000000000000000       0x4e
- .comment       0x0000000000000000       0x4e /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .comment       0x0000000000000000       0x4e /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
                                          0x4f (size before relaxing)
  .comment       0x0000000000000000       0x4f src/main.c.11.o
  .comment       0x0000000000000000       0x4f src/simply/simply.c.11.o
@@ -1421,51 +1531,59 @@ OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build/peb
  .comment       0x0000000000000000       0x4f src/simply/simply_ui.c.11.o
  .comment       0x0000000000000000       0x4f src/simply/simply_window.c.11.o
  .comment       0x0000000000000000       0x4f src/simply/simply_window_stack.c.11.o
+ .comment       0x0000000000000000       0x4f src/strap/accl.c.11.o
+ .comment       0x0000000000000000       0x4f src/strap/strap.c.11.o
  .comment       0x0000000000000000       0x4f appinfo.auto.c.11.o
- .comment       0x0000000000000000       0x4f /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .comment       0x0000000000000000       0x4f /Users/Mihir/pebble-dev/PebbleSDK-2.8.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000    0x112af
+.debug_info     0x0000000000000000    0x12ae8
  .debug_info    0x0000000000000000      0x235 src/main.c.11.o
- .debug_info    0x0000000000000235      0xbca src/simply/simply.c.11.o
- .debug_info    0x0000000000000dff      0x6f1 src/simply/simply_accel.c.11.o
- .debug_info    0x00000000000014f0     0x273c src/simply/simply_menu.c.11.o
- .debug_info    0x0000000000003c2c     0x50b9 src/simply/simply_msg.c.11.o
- .debug_info    0x0000000000008ce5      0xf54 src/simply/simply_res.c.11.o
- .debug_info    0x0000000000009c39      0x93b src/simply/simply_splash.c.11.o
- .debug_info    0x000000000000a574     0x308d src/simply/simply_stage.c.11.o
- .debug_info    0x000000000000d601     0x1b70 src/simply/simply_ui.c.11.o
- .debug_info    0x000000000000f171     0x15e6 src/simply/simply_window.c.11.o
- .debug_info    0x0000000000010757      0x83e src/simply/simply_window_stack.c.11.o
- .debug_info    0x0000000000010f95      0x31a appinfo.auto.c.11.o
+ .debug_info    0x0000000000000235      0xbbc src/simply/simply.c.11.o
+ .debug_info    0x0000000000000df1      0x6e3 src/simply/simply_accel.c.11.o
+ .debug_info    0x00000000000014d4     0x2711 src/simply/simply_menu.c.11.o
+ .debug_info    0x0000000000003be5     0x4cfa src/simply/simply_msg.c.11.o
+ .debug_info    0x00000000000088df      0xf54 src/simply/simply_res.c.11.o
+ .debug_info    0x0000000000009833      0x93b src/simply/simply_splash.c.11.o
+ .debug_info    0x000000000000a16e     0x3062 src/simply/simply_stage.c.11.o
+ .debug_info    0x000000000000d1d0     0x1b3a src/simply/simply_ui.c.11.o
+ .debug_info    0x000000000000ed0a     0x15d8 src/simply/simply_window.c.11.o
+ .debug_info    0x00000000000102e2      0x830 src/simply/simply_window_stack.c.11.o
+ .debug_info    0x0000000000010b12      0xe0a src/strap/accl.c.11.o
+ .debug_info    0x000000000001191c      0xeb2 src/strap/strap.c.11.o
+ .debug_info    0x00000000000127ce      0x31a appinfo.auto.c.11.o
 
-.debug_abbrev   0x0000000000000000     0x28bf
+.debug_abbrev   0x0000000000000000     0x2ee1
  .debug_abbrev  0x0000000000000000      0x14d src/main.c.11.o
  .debug_abbrev  0x000000000000014d      0x29e src/simply/simply.c.11.o
  .debug_abbrev  0x00000000000003eb      0x26e src/simply/simply_accel.c.11.o
  .debug_abbrev  0x0000000000000659      0x4e3 src/simply/simply_menu.c.11.o
- .debug_abbrev  0x0000000000000b3c      0x5e6 src/simply/simply_msg.c.11.o
- .debug_abbrev  0x0000000000001122      0x3fc src/simply/simply_res.c.11.o
- .debug_abbrev  0x000000000000151e      0x2d7 src/simply/simply_splash.c.11.o
- .debug_abbrev  0x00000000000017f5      0x57d src/simply/simply_stage.c.11.o
- .debug_abbrev  0x0000000000001d72      0x443 src/simply/simply_ui.c.11.o
- .debug_abbrev  0x00000000000021b5      0x419 src/simply/simply_window.c.11.o
- .debug_abbrev  0x00000000000025ce      0x253 src/simply/simply_window_stack.c.11.o
- .debug_abbrev  0x0000000000002821       0x9e appinfo.auto.c.11.o
+ .debug_abbrev  0x0000000000000b3c      0x5ce src/simply/simply_msg.c.11.o
+ .debug_abbrev  0x000000000000110a      0x3fc src/simply/simply_res.c.11.o
+ .debug_abbrev  0x0000000000001506      0x2d7 src/simply/simply_splash.c.11.o
+ .debug_abbrev  0x00000000000017dd      0x57d src/simply/simply_stage.c.11.o
+ .debug_abbrev  0x0000000000001d5a      0x443 src/simply/simply_ui.c.11.o
+ .debug_abbrev  0x000000000000219d      0x419 src/simply/simply_window.c.11.o
+ .debug_abbrev  0x00000000000025b6      0x253 src/simply/simply_window_stack.c.11.o
+ .debug_abbrev  0x0000000000002809      0x28c src/strap/accl.c.11.o
+ .debug_abbrev  0x0000000000002a95      0x3ae src/strap/strap.c.11.o
+ .debug_abbrev  0x0000000000002e43       0x9e appinfo.auto.c.11.o
 
-.debug_loc      0x0000000000000000     0x6e27
+.debug_loc      0x0000000000000000     0x6d23
  .debug_loc     0x0000000000000000       0x3e src/main.c.11.o
  .debug_loc     0x000000000000003e       0x7c src/simply/simply.c.11.o
  .debug_loc     0x00000000000000ba      0x230 src/simply/simply_accel.c.11.o
  .debug_loc     0x00000000000002ea     0x13c9 src/simply/simply_menu.c.11.o
- .debug_loc     0x00000000000016b3     0x1f02 src/simply/simply_msg.c.11.o
- .debug_loc     0x00000000000035b5      0xb94 src/simply/simply_res.c.11.o
- .debug_loc     0x0000000000004149      0x1ec src/simply/simply_splash.c.11.o
- .debug_loc     0x0000000000004335     0x11bd src/simply/simply_stage.c.11.o
- .debug_loc     0x00000000000054f2      0xd62 src/simply/simply_ui.c.11.o
- .debug_loc     0x0000000000006254      0x90d src/simply/simply_window.c.11.o
- .debug_loc     0x0000000000006b61      0x2c6 src/simply/simply_window_stack.c.11.o
+ .debug_loc     0x00000000000016b3     0x17b2 src/simply/simply_msg.c.11.o
+ .debug_loc     0x0000000000002e65      0xb94 src/simply/simply_res.c.11.o
+ .debug_loc     0x00000000000039f9      0x1ec src/simply/simply_splash.c.11.o
+ .debug_loc     0x0000000000003be5     0x11bd src/simply/simply_stage.c.11.o
+ .debug_loc     0x0000000000004da2      0xd6e src/simply/simply_ui.c.11.o
+ .debug_loc     0x0000000000005b10      0x90d src/simply/simply_window.c.11.o
+ .debug_loc     0x000000000000641d      0x2c6 src/simply/simply_window_stack.c.11.o
+ .debug_loc     0x00000000000066e3      0x2c5 src/strap/accl.c.11.o
+ .debug_loc     0x00000000000069a8      0x37b src/strap/strap.c.11.o
 
-.debug_aranges  0x0000000000000000      0x5e0
+.debug_aranges  0x0000000000000000      0x6a8
  .debug_aranges
                 0x0000000000000000       0x20 src/main.c.11.o
  .debug_aranges
@@ -1475,84 +1593,98 @@ OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build/peb
  .debug_aranges
                 0x0000000000000090      0x120 src/simply/simply_menu.c.11.o
  .debug_aranges
-                0x00000000000001b0      0x110 src/simply/simply_msg.c.11.o
+                0x00000000000001b0      0x100 src/simply/simply_msg.c.11.o
  .debug_aranges
-                0x00000000000002c0       0x80 src/simply/simply_res.c.11.o
+                0x00000000000002b0       0x80 src/simply/simply_res.c.11.o
  .debug_aranges
-                0x0000000000000340       0x40 src/simply/simply_splash.c.11.o
+                0x0000000000000330       0x40 src/simply/simply_splash.c.11.o
  .debug_aranges
-                0x0000000000000380       0xe8 src/simply/simply_stage.c.11.o
+                0x0000000000000370       0xe8 src/simply/simply_stage.c.11.o
  .debug_aranges
-                0x0000000000000468       0x78 src/simply/simply_ui.c.11.o
+                0x0000000000000458       0x78 src/simply/simply_ui.c.11.o
  .debug_aranges
-                0x00000000000004e0       0x98 src/simply/simply_window.c.11.o
+                0x00000000000004d0       0x98 src/simply/simply_window.c.11.o
  .debug_aranges
-                0x0000000000000578       0x50 src/simply/simply_window_stack.c.11.o
+                0x0000000000000568       0x50 src/simply/simply_window_stack.c.11.o
  .debug_aranges
-                0x00000000000005c8       0x18 appinfo.auto.c.11.o
+                0x00000000000005b8       0x58 src/strap/accl.c.11.o
+ .debug_aranges
+                0x0000000000000610       0x80 src/strap/strap.c.11.o
+ .debug_aranges
+                0x0000000000000690       0x18 appinfo.auto.c.11.o
 
-.debug_ranges   0x0000000000000000     0x1000
+.debug_ranges   0x0000000000000000      0xcf0
  .debug_ranges  0x0000000000000000       0x10 src/main.c.11.o
  .debug_ranges  0x0000000000000010       0x18 src/simply/simply.c.11.o
  .debug_ranges  0x0000000000000028       0x38 src/simply/simply_accel.c.11.o
  .debug_ranges  0x0000000000000060      0x268 src/simply/simply_menu.c.11.o
- .debug_ranges  0x00000000000002c8      0x6f0 src/simply/simply_msg.c.11.o
- .debug_ranges  0x00000000000009b8       0xb8 src/simply/simply_res.c.11.o
- .debug_ranges  0x0000000000000a70       0x30 src/simply/simply_splash.c.11.o
- .debug_ranges  0x0000000000000aa0      0x2a8 src/simply/simply_stage.c.11.o
- .debug_ranges  0x0000000000000d48      0x148 src/simply/simply_ui.c.11.o
- .debug_ranges  0x0000000000000e90      0x130 src/simply/simply_window.c.11.o
- .debug_ranges  0x0000000000000fc0       0x40 src/simply/simply_window_stack.c.11.o
+ .debug_ranges  0x00000000000002c8      0x2b0 src/simply/simply_msg.c.11.o
+ .debug_ranges  0x0000000000000578       0xb8 src/simply/simply_res.c.11.o
+ .debug_ranges  0x0000000000000630       0x30 src/simply/simply_splash.c.11.o
+ .debug_ranges  0x0000000000000660      0x2a8 src/simply/simply_stage.c.11.o
+ .debug_ranges  0x0000000000000908      0x148 src/simply/simply_ui.c.11.o
+ .debug_ranges  0x0000000000000a50      0x130 src/simply/simply_window.c.11.o
+ .debug_ranges  0x0000000000000b80       0x40 src/simply/simply_window_stack.c.11.o
+ .debug_ranges  0x0000000000000bc0       0xa8 src/strap/accl.c.11.o
+ .debug_ranges  0x0000000000000c68       0x88 src/strap/strap.c.11.o
 
-.debug_line     0x0000000000000000     0x2f08
- .debug_line    0x0000000000000000       0xa4 src/main.c.11.o
- .debug_line    0x00000000000000a4      0x2c3 src/simply/simply.c.11.o
- .debug_line    0x0000000000000367      0x294 src/simply/simply_accel.c.11.o
- .debug_line    0x00000000000005fb      0x6e2 src/simply/simply_menu.c.11.o
- .debug_line    0x0000000000000cdd      0x7cb src/simply/simply_msg.c.11.o
- .debug_line    0x00000000000014a8      0x3c1 src/simply/simply_res.c.11.o
- .debug_line    0x0000000000001869      0x283 src/simply/simply_splash.c.11.o
- .debug_line    0x0000000000001aec      0x6dc src/simply/simply_stage.c.11.o
- .debug_line    0x00000000000021c8      0x513 src/simply/simply_ui.c.11.o
- .debug_line    0x00000000000026db      0x429 src/simply/simply_window.c.11.o
- .debug_line    0x0000000000002b04      0x2d8 src/simply/simply_window_stack.c.11.o
- .debug_line    0x0000000000002ddc      0x12c appinfo.auto.c.11.o
+.debug_line     0x0000000000000000     0x31fd
+ .debug_line    0x0000000000000000       0x9e src/main.c.11.o
+ .debug_line    0x000000000000009e      0x291 src/simply/simply.c.11.o
+ .debug_line    0x000000000000032f      0x262 src/simply/simply_accel.c.11.o
+ .debug_line    0x0000000000000591      0x6af src/simply/simply_menu.c.11.o
+ .debug_line    0x0000000000000c40      0x65a src/simply/simply_msg.c.11.o
+ .debug_line    0x000000000000129a      0x38f src/simply/simply_res.c.11.o
+ .debug_line    0x0000000000001629      0x251 src/simply/simply_splash.c.11.o
+ .debug_line    0x000000000000187a      0x6a3 src/simply/simply_stage.c.11.o
+ .debug_line    0x0000000000001f1d      0x4c0 src/simply/simply_ui.c.11.o
+ .debug_line    0x00000000000023dd      0x3f7 src/simply/simply_window.c.11.o
+ .debug_line    0x00000000000027d4      0x2a6 src/simply/simply_window_stack.c.11.o
+ .debug_line    0x0000000000002a7a      0x382 src/strap/accl.c.11.o
+ .debug_line    0x0000000000002dfc      0x2e1 src/strap/strap.c.11.o
+ .debug_line    0x00000000000030dd      0x120 appinfo.auto.c.11.o
 
-.debug_str      0x0000000000000000     0x3a8d
- .debug_str     0x0000000000000000      0x18e src/main.c.11.o
-                                        0x1cd (size before relaxing)
- .debug_str     0x000000000000018e      0x47c src/simply/simply.c.11.o
-                                        0x6b8 (size before relaxing)
- .debug_str     0x000000000000060a      0x1cd src/simply/simply_accel.c.11.o
-                                        0x4cd (size before relaxing)
- .debug_str     0x00000000000007d7      0xa11 src/simply/simply_menu.c.11.o
-                                        0xf91 (size before relaxing)
- .debug_str     0x00000000000011e8     0x185c src/simply/simply_msg.c.11.o
-                                       0x2262 (size before relaxing)
- .debug_str     0x0000000000002a44      0x141 src/simply/simply_res.c.11.o
-                                        0x4e9 (size before relaxing)
- .debug_str     0x0000000000002b85      0x162 src/simply/simply_splash.c.11.o
-                                        0x52d (size before relaxing)
- .debug_str     0x0000000000002ce7      0x717 src/simply/simply_stage.c.11.o
-                                       0x1543 (size before relaxing)
- .debug_str     0x00000000000033fe      0x1bf src/simply/simply_ui.c.11.o
-                                        0xde9 (size before relaxing)
- .debug_str     0x00000000000035bd      0x33f src/simply/simply_window.c.11.o
-                                        0xb61 (size before relaxing)
- .debug_str     0x00000000000038fc       0x41 src/simply/simply_window_stack.c.11.o
-                                        0x4fa (size before relaxing)
- .debug_str     0x000000000000393d      0x150 appinfo.auto.c.11.o
-                                        0x2fc (size before relaxing)
+.debug_str      0x0000000000000000     0x3e22
+ .debug_str     0x0000000000000000      0x16e src/main.c.11.o
+                                        0x1ad (size before relaxing)
+ .debug_str     0x000000000000016e      0x471 src/simply/simply.c.11.o
+                                        0x685 (size before relaxing)
+ .debug_str     0x00000000000005df      0x1cd src/simply/simply_accel.c.11.o
+                                        0x49a (size before relaxing)
+ .debug_str     0x00000000000007ac      0xa00 src/simply/simply_menu.c.11.o
+                                        0xf4d (size before relaxing)
+ .debug_str     0x00000000000011ac     0x17ba src/simply/simply_msg.c.11.o
+                                       0x218b (size before relaxing)
+ .debug_str     0x0000000000002966      0x152 src/simply/simply_res.c.11.o
+                                        0x4c9 (size before relaxing)
+ .debug_str     0x0000000000002ab8      0x162 src/simply/simply_splash.c.11.o
+                                        0x50d (size before relaxing)
+ .debug_str     0x0000000000002c1a      0x717 src/simply/simply_stage.c.11.o
+                                       0x14ff (size before relaxing)
+ .debug_str     0x0000000000003331      0x1bf src/simply/simply_ui.c.11.o
+                                        0xda5 (size before relaxing)
+ .debug_str     0x00000000000034f0      0x33f src/simply/simply_window.c.11.o
+                                        0xb2e (size before relaxing)
+ .debug_str     0x000000000000382f       0x41 src/simply/simply_window_stack.c.11.o
+                                        0x4c7 (size before relaxing)
+ .debug_str     0x0000000000003870      0x232 src/strap/accl.c.11.o
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000003aa2      0x230 src/strap/strap.c.11.o
+                                        0x79f (size before relaxing)
+ .debug_str     0x0000000000003cd2      0x150 appinfo.auto.c.11.o
+                                        0x2dc (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x1014
+.debug_frame    0x0000000000000000     0x1208
  .debug_frame   0x0000000000000000       0x28 src/main.c.11.o
  .debug_frame   0x0000000000000028       0x40 src/simply/simply.c.11.o
  .debug_frame   0x0000000000000068       0x90 src/simply/simply_accel.c.11.o
  .debug_frame   0x00000000000000f8      0x334 src/simply/simply_menu.c.11.o
- .debug_frame   0x000000000000042c      0x348 src/simply/simply_msg.c.11.o
- .debug_frame   0x0000000000000774      0x158 src/simply/simply_res.c.11.o
- .debug_frame   0x00000000000008cc       0x9c src/simply/simply_splash.c.11.o
- .debug_frame   0x0000000000000968      0x2b4 src/simply/simply_stage.c.11.o
- .debug_frame   0x0000000000000c1c      0x170 src/simply/simply_ui.c.11.o
- .debug_frame   0x0000000000000d8c      0x1c8 src/simply/simply_window.c.11.o
- .debug_frame   0x0000000000000f54       0xc0 src/simply/simply_window_stack.c.11.o
+ .debug_frame   0x000000000000042c      0x30c src/simply/simply_msg.c.11.o
+ .debug_frame   0x0000000000000738      0x158 src/simply/simply_res.c.11.o
+ .debug_frame   0x0000000000000890       0x9c src/simply/simply_splash.c.11.o
+ .debug_frame   0x000000000000092c      0x2b4 src/simply/simply_stage.c.11.o
+ .debug_frame   0x0000000000000be0      0x170 src/simply/simply_ui.c.11.o
+ .debug_frame   0x0000000000000d50      0x1c8 src/simply/simply_window.c.11.o
+ .debug_frame   0x0000000000000f18       0xc0 src/simply/simply_window_stack.c.11.o
+ .debug_frame   0x0000000000000fd8       0xf0 src/strap/accl.c.11.o
+ .debug_frame   0x00000000000010c8      0x140 src/strap/strap.c.11.o

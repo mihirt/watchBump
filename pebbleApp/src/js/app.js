@@ -1,59 +1,90 @@
+// ------------------------------
+//  Start of Strap API
+// ------------------------------
+
+
+// ------------------------------
+//  End of Strap API
+// ------------------------------
+
 /**
  * Welcome to Pebble.js!
  *
  * This is where you write your app.
  */
 
-var Accel = require('ui/accel');
 var UI = require('ui');
 var Vector2 = require('vector2');
+var Accel = require('ui/accel');
 Accel.init();
+var lightState = new Boolean(false);
+var ajax = require('ajax');
+var Vibrator = require('ui/vibe');
 
-var currentCard = "main"
 
 var main = new UI.Card({
-  title: 'BUMP for Pebble',
-  subtitle: 'Tap the screen next to someone else with the BUMP app'
+  title: 'Bump app',
+  subtitle: 'Send a contact!',
+  body: 'Bump to communicate.' ,
+  
+
 });
-
-Accel.on('tap', function(e) {
-  console.log("tap")
-  var transactionId = Pebble.sendAppMessage( { '0': 42, '1': 'String value' },
-    function(e) {
-      console.log('Successfully delivered message with transactionId='
-        + e.data.transactionId);
-    },
-    function(e) {
-      console.log('Unable to deliver message with transactionId='
-        + e.data.transactionId
-        + ' Error is: ' + e.error.message);
-    }
-  );
-  if (currentCard == "main"){
-    currentCard = "push";
-    var card = new UI.Card();
-    card.title('BUMPED');
-    card.subtitle('Looking for partner');
-    card.body('(This is where something would happen)');
-
-    card.on('hide', function() {
-      currentCard = "main"
-    });
-
-    card.show();
-  }
-});
-
-Pebble.addEventListener('appmessage',
-  function(e) {
-    if (e.payload["3"] != null){
-      var card = new UI.Card();
-      card.title('MSG RECEIVED');
-      card.body(JSON.stringify(e.payload));
-      card.show();
-    }
-  });
-
 
 main.show();
 
+
+
+
+Accel.on('tap', function(e) {
+	Vibrator.vibrate('double');
+	console.log("sent");
+	ajax(
+	{
+	 	/*url: 'http://192.168.2.3/?9',
+	    method: 'get'*/
+	    url: 'https://kvtest.firebaseio.com/pebble_bumped_1.json',
+	    method: 'post',
+	    type: 'json',
+	    data: {val: 'device 1'}
+	    
+
+	    /*url: 'https:api.spark.io/v1/access_tokens',
+	    method: 'post',
+	   	data: */
+	    
+//-d access_token=b0ca5a17f3e792da964848a381417f7201ae45e6
+	
+	},
+
+	function(error) {
+	
+    console.log('The ajax request failed: ' + error);
+  	},
+  	function(data)
+  	{
+  		console.log("data:"+data);
+  	}
+  	);
+
+
+	/*var onTap = new UI.Card({
+		title: 'You tapped',
+		body: lightState.toString(),
+	});
+onTap.show();*/
+});
+
+
+
+
+
+
+
+
+main.on('click', 'down', function(e) {
+  var card = new UI.Card();
+  card.title('Bump Request sent!');
+  card.subtitle('Confirmed!');
+  card.body('Check your phone to send information.');
+  card.show();
+});

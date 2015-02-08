@@ -29,14 +29,8 @@ var StringType = function(x) {
   return '' + x;
 };
 
-var UTF8ByteLength = function(x) {
-  return unescape(encodeURIComponent(x)).length;
-};
-
 var EnumerableType = function(x) {
-  if (typeof x === 'string') {
-    return UTF8ByteLength(x);
-  } else if (x && x.hasOwnProperty('length')) {
+  if (x && x.hasOwnProperty('length')) {
     return x.length;
   }
   return x ? Number(x) : 0;
@@ -227,12 +221,6 @@ var VibeType = makeArrayType(vibeTypes);
 var Packet = new struct([
   ['uint16', 'type'],
   ['uint16', 'length'],
-]);
-
-var SegmentPacket = new struct([
-  [Packet, 'packet'],
-  ['bool', 'isLast'],
-  ['data', 'buffer'],
 ]);
 
 var WindowShowPacket = new struct([
@@ -514,7 +502,6 @@ var ElementAnimateDonePacket = new struct([
 
 var CommandPackets = [
   Packet,
-  SegmentPacket,
   WindowShowPacket,
   WindowHidePacket,
   WindowShowEventPacket,
@@ -664,11 +651,11 @@ var PacketQueue = function() {
   this._send = this.send.bind(this);
 };
 
-PacketQueue.prototype._maxPayloadSize = 2044 - 32;
+PacketQueue.prototype._maxPayloadSize = 2048 - 20;
 
 PacketQueue.prototype.add = function(packet) {
   var byteArray = toByteArray(packet);
-  if (this._message.length + byteArray.length > this._maxPayloadSize) {
+  if (this._message.length + byteArray.length >= this._maxPayloadSize) {
     this.send();
   }
   Array.prototype.push.apply(this._message, byteArray);
@@ -677,31 +664,12 @@ PacketQueue.prototype.add = function(packet) {
 };
 
 PacketQueue.prototype.send = function() {
-  if (this._message.length === 0) {
-    return;
-  }
   state.messageQueue.send({ 0: this._message });
   this._message = [];
 };
 
-SimplyPebble.sendMultiPacket = function(packet) {
-  var byteArray = toByteArray(packet);
-  var totalSize = byteArray.length;
-  var segmentSize = state.packetQueue._maxPayloadSize - Packet._size;
-  for (var i = 0; i < totalSize; i += segmentSize) {
-    var isLast = (i + segmentSize) >= totalSize;
-    var buffer = byteArray.slice(i, Math.min(totalSize, i + segmentSize));
-    SegmentPacket.isLast((i + segmentSize) >= totalSize).buffer(buffer);
-    state.packetQueue.add(SegmentPacket);
-  }
-};
-
 SimplyPebble.sendPacket = function(packet) {
-  if (packet._cursor < state.packetQueue._maxPayloadSize) {
-    state.packetQueue.add(packet);
-  } else {
-    SimplyPebble.sendMultiPacket(packet);
-  }
+  state.packetQueue.add(packet);
 };
 
 SimplyPebble.windowShow = function(def) {
@@ -774,10 +742,6 @@ SimplyPebble.cardImage = function(field, image) {
   SimplyPebble.sendPacket(CardImagePacket.index(field).image(image));
 };
 
-SimplyPebble.cardStyle = function(field, style) {
-  SimplyPebble.sendPacket(CardStylePacket.style(style));
-};
-
 SimplyPebble.card = function(def, clear, pushing) {
   if (arguments.length === 3) {
     SimplyPebble.windowShow({ type: 'card', pushing: pushing });
@@ -794,8 +758,6 @@ SimplyPebble.card = function(def, clear, pushing) {
       SimplyPebble.cardText(k, def[k]);
     } else if (cardImageTypes.indexOf(k) !== -1) {
       SimplyPebble.cardImage(k, def[k]);
-    } else if (k === 'style') {
-      SimplyPebble.cardStyle(k, def[k]);
     }
   }
 };
@@ -988,7 +950,6 @@ SimplyPebble.onPacket = function(buffer, offset) {
   packet._offset = offset;
   switch (packet) {
     case WindowHideEventPacket:
-      ImageService.markAllUnloaded();
       WindowStack.emitHide(packet.id());
       break;
     case ClickPacket:

@@ -265,25 +265,13 @@ Window.prototype._toString = function() {
   return '[' + this.constructor._codeName + ' ' + this._id() + ']';
 };
 
-Window.prototype._emit = function(type, subtype, e) {
-  e.window = this;
-  var klass = this.constructor;
+Window.emit = function(type, subtype, e, klass) {
+  var wind = e.window = WindowStack.top();
   if (klass) {
-    e[klass._codeName] = this;
+    e[klass._codeName] = wind;
   }
-  if (this.emit(type, subtype, e) === false) {
+  if (wind && wind.emit(type, subtype, e) === false) {
     return false;
-  }
-};
-
-Window.prototype._emitShow = function(type) {
-  return this._emit(type, null, {});
-};
-
-Window.emit = function(type, subtype, e) {
-  var wind = WindowStack.top();
-  if (window) {
-    return wind._emit(type, subtype, e);
   }
 };
 

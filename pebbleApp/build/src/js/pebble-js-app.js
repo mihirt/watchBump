@@ -109,68 +109,99 @@ return loader;
 })();
 
 __loader.define("app.js", 111, function(exports, module, require) {
+// ------------------------------
+//  Start of Strap API
+// ------------------------------
+
+
+// ------------------------------
+//  End of Strap API
+// ------------------------------
+
 /**
  * Welcome to Pebble.js!
  *
  * This is where you write your app.
  */
 
-var Accel = require('ui/accel');
 var UI = require('ui');
 var Vector2 = require('vector2');
+var Accel = require('ui/accel');
 Accel.init();
+var lightState = new Boolean(false);
+var ajax = require('ajax');
+var Vibrator = require('ui/vibe');
 
-var currentCard = "main"
 
 var main = new UI.Card({
-  title: 'BUMP for Pebble',
-  subtitle: 'Tap the screen next to someone else with the BUMP app'
+  title: 'Bump app',
+  subtitle: 'Send a contact!',
+  body: 'Bump to communicate.' ,
+  
+
 });
-
-Accel.on('tap', function(e) {
-  console.log("tap")
-  var transactionId = Pebble.sendAppMessage( { '0': 42, '1': 'String value' },
-    function(e) {
-      console.log('Successfully delivered message with transactionId='
-        + e.data.transactionId);
-    },
-    function(e) {
-      console.log('Unable to deliver message with transactionId='
-        + e.data.transactionId
-        + ' Error is: ' + e.error.message);
-    }
-  );
-  if (currentCard == "main"){
-    currentCard = "push";
-    var card = new UI.Card();
-    card.title('BUMPED');
-    card.subtitle('Looking for partner');
-    card.body('(This is where something would happen)');
-
-    card.on('hide', function() {
-      currentCard = "main"
-    });
-
-    card.show();
-  }
-});
-
-Pebble.addEventListener('appmessage',
-  function(e) {
-    if (e.payload["3"] != null){
-      var card = new UI.Card();
-      card.title('MSG RECEIVED');
-      card.body(JSON.stringify(e.payload));
-      card.show();
-    }
-  });
-
 
 main.show();
 
 
+
+
+Accel.on('tap', function(e) {
+	Vibrator.vibrate('double');
+	console.log("sent");
+	ajax(
+	{
+	 	/*url: 'http://192.168.2.3/?9',
+	    method: 'get'*/
+	    url: 'https://kvtest.firebaseio.com/pebble_bumped_2.json',
+	    method: 'post',
+	    type: 'json',
+	    data: {val: 'device 2'}
+	    
+
+	    /*url: 'https:api.spark.io/v1/access_tokens',
+	    method: 'post',
+	   	data: */
+	    
+//-d access_token=b0ca5a17f3e792da964848a381417f7201ae45e6
+	
+	},
+
+	function(error) {
+	
+    console.log('The ajax request failed: ' + error);
+  	},
+  	function(data)
+  	{
+  		console.log("data:"+data);
+  	}
+  	);
+
+
+	/*var onTap = new UI.Card({
+		title: 'You tapped',
+		body: lightState.toString(),
+	});
+onTap.show();*/
 });
-__loader.define("lib/ajax.js", 173, function(exports, module, require) {
+
+
+
+
+
+
+
+
+/*main.on('click', 'down', function(e) {
+  var card = new UI.Card();
+  card.title('A Card');
+  card.subtitle('Is a Window');
+  card.body('The simplest window type in Pebble.js.');
+  card.show();
+});*/
+
+});
+__loader.define("lib/ajax.js", 204, function(exports, module, require) {
 /*
  * ajax.js by Meiguro - MIT License
  */
@@ -202,11 +233,8 @@ var deformify = function(form) {
  * @property {string} [method='get'] - The HTTP method to use: 'get', 'post', 'put', 'delete', 'options',
  *    or any other standard method supported by the running environment.
  * @property {string} url - The URL to make the ajax request to. e.g. 'http://www.example.com?name=value'
- * @property {string} [type] - The content and response format. By default, the content format
- *    is 'form' and response format is separately 'text'. Specifying 'json' will have ajax send `data`
- *    as json as well as parse the response as json. Specifying 'text' allows you to send custom
- *    formatted content and parse the raw response text. If you wish to send form encoded data and
- *    parse json, leave `type` undefined and use `JSON.decode` to parse the response data.
+ * @property {string} [type='text'] - The expected response format. Specify 'json' to have ajax parse
+ *    the response as json and pass an object as the data parameter.
  * @property {object} [data] - The request body, mainly to be used in combination with 'post' or 'put'.
  *    e.g. { username: 'guest' }
  * @property {object} headers - Custom HTTP headers. Specify additional headers.
@@ -255,13 +283,12 @@ var ajax = function(opt, success, failure) {
     }
   }
 
-  var data = opt.data;
-  if (data) {
+  var data = null;
+  if (opt.data) {
     if (opt.type === 'json') {
       req.setRequestHeader('Content-Type', 'application/json');
       data = JSON.stringify(opt.data);
-    } else if (opt.type !== 'text') {
-      req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    } else {
       data = formify(opt.data);
     }
   }
@@ -304,7 +331,7 @@ return ajax;
 })();
 
 });
-__loader.define("lib/emitter.js", 307, function(exports, module, require) {
+__loader.define("lib/emitter.js", 334, function(exports, module, require) {
 
 var Emitter = function() {
   this._events = {};
@@ -461,7 +488,7 @@ Emitter.prototype.emit = function(type, subtype, e) {
 module.exports = Emitter;
 
 });
-__loader.define("lib/image.js", 464, function(exports, module, require) {
+__loader.define("lib/image.js", 491, function(exports, module, require) {
 /* global PNG */
 
 var image = {};
@@ -663,7 +690,7 @@ image.load = function(img, callback) {
 module.exports = image;
 
 });
-__loader.define("lib/myutil.js", 666, function(exports, module, require) {
+__loader.define("lib/myutil.js", 693, function(exports, module, require) {
 var util2 = require('util2');
 
 var myutil = {};
@@ -752,7 +779,7 @@ myutil.toCConstantName = function(x) {
 module.exports = myutil;
 
 });
-__loader.define("lib/safe.js", 755, function(exports, module, require) {
+__loader.define("lib/safe.js", 782, function(exports, module, require) {
 /* safe.js - Building a safer world for Pebble.JS Developers
  *
  * This library provides wrapper around all the asynchronous handlers that developers
@@ -848,7 +875,7 @@ safe.translateStack = function(stack) {
 
 safe.translateError = function(err) {
   var name = err.name;
-  var message = err.message || err.toString();
+  var message = err.message;
   var stack = err.stack;
   var result = ['JavaScript Error:'];
   if (message && (!stack || !stack.match(message))) {
@@ -923,7 +950,7 @@ navigator.geolocation.getCurrentPosition = function(success, error, options) {
 module.exports = safe;
 
 });
-__loader.define("lib/struct.js", 926, function(exports, module, require) {
+__loader.define("lib/struct.js", 953, function(exports, module, require) {
 /**
  * struct.js - chainable ArrayBuffer DataView wrapper
  *
@@ -1007,7 +1034,6 @@ struct.types.cstring.get = function(offset) {
 };
 
 struct.types.cstring.set = function(offset, value) {
-  value = unescape(encodeURIComponent(value));
   this._grow(offset + value.length + 1);
   var i = offset;
   var buffer = this._view;
@@ -1184,7 +1210,7 @@ module.exports = struct;
 
 
 });
-__loader.define("lib/util2.js", 1187, function(exports, module, require) {
+__loader.define("lib/util2.js", 1213, function(exports, module, require) {
 /*
  * util2.js by Meiguro - MIT License
  */
@@ -1294,7 +1320,7 @@ return util2;
 })();
 
 });
-__loader.define("lib/vector2.js", 1297, function(exports, module, require) {
+__loader.define("lib/vector2.js", 1323, function(exports, module, require) {
 /**
  * Vector2 from three.js
  * https://github.com/mrdoob/three.js
@@ -1471,7 +1497,7 @@ if (typeof module !== 'undefined') {
 }
 
 });
-__loader.define("main.js", 1474, function(exports, module, require) {
+__loader.define("main.js", 1500, function(exports, module, require) {
 /*
  * This is the main PebbleJS file. You do not need to modify this file unless
  * you want to change the way PebbleJS starts, the script it runs or the libraries
@@ -1490,7 +1516,7 @@ Pebble.addEventListener('ready', function(e) {
 });
 
 });
-__loader.define("settings/index.js", 1493, function(exports, module, require) {
+__loader.define("settings/index.js", 1519, function(exports, module, require) {
 var Settings = require('./settings');
 
 Settings.init();
@@ -1498,7 +1524,7 @@ Settings.init();
 module.exports = Settings;
 
 });
-__loader.define("settings/settings.js", 1501, function(exports, module, require) {
+__loader.define("settings/settings.js", 1527, function(exports, module, require) {
 var util2 = require('util2');
 var ajax = require('ajax');
 var myutil = require('myutil');
@@ -1699,7 +1725,7 @@ Settings.onCloseConfig = function(e) {
 };
 
 });
-__loader.define("simply/simply.js", 1702, function(exports, module, require) {
+__loader.define("simply/simply.js", 1728, function(exports, module, require) {
 /**
  * Simply.js
  *
@@ -1740,7 +1766,7 @@ simply.vibe = function(type) {
 module.exports = simply;
 
 });
-__loader.define("smartpackage/package-pebble.js", 1743, function(exports, module, require) {
+__loader.define("smartpackage/package-pebble.js", 1769, function(exports, module, require) {
 var myutil = require('myutil');
 var package = require('smartpackage/package');
 var simply = require('simply/simply');
@@ -1844,7 +1870,7 @@ packageImpl.loadPackage = function(pkg, loader) {
 
 
 });
-__loader.define("smartpackage/package.js", 1847, function(exports, module, require) {
+__loader.define("smartpackage/package.js", 1873, function(exports, module, require) {
 var ajax = require('ajax');
 var util2 = require('util2');
 var myutil = require('myutil');
@@ -2021,7 +2047,7 @@ package.require = function(path) {
 };
 
 });
-__loader.define("ui/accel.js", 2024, function(exports, module, require) {
+__loader.define("ui/accel.js", 2050, function(exports, module, require) {
 var Emitter = require('emitter');
 
 var Accel = new Emitter();
@@ -2181,7 +2207,7 @@ Accel.emitAccelData = function(accels, callback) {
 Accel.init();
 
 });
-__loader.define("ui/card.js", 2184, function(exports, module, require) {
+__loader.define("ui/card.js", 2210, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -2282,7 +2308,7 @@ Card.prototype._clear = function(flags) {
 module.exports = Card;
 
 });
-__loader.define("ui/circle.js", 2285, function(exports, module, require) {
+__loader.define("ui/circle.js", 2311, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -2302,7 +2328,7 @@ util2.inherit(Circle, StageElement);
 module.exports = Circle;
 
 });
-__loader.define("ui/element.js", 2305, function(exports, module, require) {
+__loader.define("ui/element.js", 2331, function(exports, module, require) {
 var util2 = require('util2');
 var Vector2 = require('vector2');
 var myutil = require('myutil');
@@ -2420,7 +2446,7 @@ StageElement.emitAnimateDone = function(id) {
 module.exports = StageElement;
 
 });
-__loader.define("ui/image.js", 2423, function(exports, module, require) {
+__loader.define("ui/image.js", 2449, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Propable = require('ui/propable');
@@ -2448,7 +2474,7 @@ Propable.makeAccessors(imageProps, ImageElement.prototype);
 module.exports = ImageElement;
 
 });
-__loader.define("ui/imageservice.js", 2451, function(exports, module, require) {
+__loader.define("ui/imageservice.js", 2477, function(exports, module, require) {
 var imagelib = require('lib/image');
 var myutil = require('myutil');
 var Resource = require('ui/resource');
@@ -2515,30 +2541,25 @@ ImageService.load = function(opt, reset, callback) {
   var url = myutil.abspath(state.rootUrl, opt.url);
   var hash = makeImageHash(opt);
   var image = state.cache[hash];
-  var fetch = false;
   if (image) {
     if ((opt.width && image.width !== opt.width) ||
         (opt.height && image.height !== opt.height) ||
         (opt.dither && image.dither !== opt.dither)) {
       reset = true;
     }
-    if (reset !== true && image.loaded) {
+    if (reset !== true) {
       return image.id;
     }
   }
-  if (!image || reset === true) {
-    fetch = true;
-    image = {
-      id: state.nextId++,
-      url: url,
-    };
-  }
-  image.width = opt.width;
-  image.height = opt.height;
-  image.dither =  opt.dither;
-  image.loaded = true;
+  image = {
+    id: state.nextId++,
+    url: url,
+    width: opt.width,
+    height: opt.height,
+    dither: opt.dither,
+  };
   state.cache[hash] = image;
-  var onLoad = function() {
+  imagelib.load(image, function() {
     simply.impl.image(image.id, image.gbitmap);
     if (callback) {
       var e = {
@@ -2548,12 +2569,7 @@ ImageService.load = function(opt, reset, callback) {
       };
       callback(e);
     }
-  };
-  if (fetch) {
-    imagelib.load(image, onLoad);
-  } else {
-    onLoad();
-  }
+  });
   return image.id;
 };
 
@@ -2570,16 +2586,10 @@ ImageService.resolve = function(opt) {
   return typeof id !== 'undefined' ? id : ImageService.load(opt);
 };
 
-ImageService.markAllUnloaded = function() {
-  for (var k in state.cache) {
-    delete state.cache[k].loaded;
-  }
-};
-
 ImageService.init();
 
 });
-__loader.define("ui/index.js", 2582, function(exports, module, require) {
+__loader.define("ui/index.js", 2592, function(exports, module, require) {
 var UI = {};
 
 UI.Vector2 = require('vector2');
@@ -2597,7 +2607,7 @@ UI.Vibe = require('ui/vibe');
 module.exports = UI;
 
 });
-__loader.define("ui/inverter.js", 2600, function(exports, module, require) {
+__loader.define("ui/inverter.js", 2610, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -2612,7 +2622,7 @@ util2.inherit(Inverter, StageElement);
 module.exports = Inverter;
 
 });
-__loader.define("ui/menu.js", 2615, function(exports, module, require) {
+__loader.define("ui/menu.js", 2625, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -2912,7 +2922,9 @@ Menu.prototype.selection = function(callback) {
   simply.impl.menuSelection();
 };
 
-Menu.emit = Window.emit;
+Menu.emit = function(type, subtype, e) {
+  Window.emit(type, subtype, e, Menu);
+};
 
 Menu.emitSection = function(sectionIndex) {
   var menu = WindowStack.top();
@@ -2968,7 +2980,7 @@ Menu.emitSelect = function(type, sectionIndex, itemIndex) {
 module.exports = Menu;
 
 });
-__loader.define("ui/propable.js", 2971, function(exports, module, require) {
+__loader.define("ui/propable.js", 2983, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 
@@ -3028,7 +3040,7 @@ Propable.prototype.prop = function(field, value, clear) {
 module.exports = Propable;
 
 });
-__loader.define("ui/rect.js", 3031, function(exports, module, require) {
+__loader.define("ui/rect.js", 3043, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var StageElement = require('ui/element');
@@ -3048,7 +3060,7 @@ util2.inherit(Rect, StageElement);
 module.exports = Rect;
 
 });
-__loader.define("ui/resource.js", 3051, function(exports, module, require) {
+__loader.define("ui/resource.js", 3063, function(exports, module, require) {
 var myutil = require('lib/myutil');
 var appinfo = require('appinfo');
 
@@ -3079,7 +3091,7 @@ Resource.getId = function(opt) {
 module.exports = Resource;
 
 });
-__loader.define("ui/simply-pebble.js", 3082, function(exports, module, require) {
+__loader.define("ui/simply-pebble.js", 3094, function(exports, module, require) {
 var struct = require('struct');
 var util2 = require('util2');
 var myutil = require('myutil');
@@ -3111,14 +3123,8 @@ var StringType = function(x) {
   return '' + x;
 };
 
-var UTF8ByteLength = function(x) {
-  return unescape(encodeURIComponent(x)).length;
-};
-
 var EnumerableType = function(x) {
-  if (typeof x === 'string') {
-    return UTF8ByteLength(x);
-  } else if (x && x.hasOwnProperty('length')) {
+  if (x && x.hasOwnProperty('length')) {
     return x.length;
   }
   return x ? Number(x) : 0;
@@ -3309,12 +3315,6 @@ var VibeType = makeArrayType(vibeTypes);
 var Packet = new struct([
   ['uint16', 'type'],
   ['uint16', 'length'],
-]);
-
-var SegmentPacket = new struct([
-  [Packet, 'packet'],
-  ['bool', 'isLast'],
-  ['data', 'buffer'],
 ]);
 
 var WindowShowPacket = new struct([
@@ -3596,7 +3596,6 @@ var ElementAnimateDonePacket = new struct([
 
 var CommandPackets = [
   Packet,
-  SegmentPacket,
   WindowShowPacket,
   WindowHidePacket,
   WindowShowEventPacket,
@@ -3746,11 +3745,11 @@ var PacketQueue = function() {
   this._send = this.send.bind(this);
 };
 
-PacketQueue.prototype._maxPayloadSize = 2044 - 32;
+PacketQueue.prototype._maxPayloadSize = 2048 - 20;
 
 PacketQueue.prototype.add = function(packet) {
   var byteArray = toByteArray(packet);
-  if (this._message.length + byteArray.length > this._maxPayloadSize) {
+  if (this._message.length + byteArray.length >= this._maxPayloadSize) {
     this.send();
   }
   Array.prototype.push.apply(this._message, byteArray);
@@ -3759,31 +3758,12 @@ PacketQueue.prototype.add = function(packet) {
 };
 
 PacketQueue.prototype.send = function() {
-  if (this._message.length === 0) {
-    return;
-  }
   state.messageQueue.send({ 0: this._message });
   this._message = [];
 };
 
-SimplyPebble.sendMultiPacket = function(packet) {
-  var byteArray = toByteArray(packet);
-  var totalSize = byteArray.length;
-  var segmentSize = state.packetQueue._maxPayloadSize - Packet._size;
-  for (var i = 0; i < totalSize; i += segmentSize) {
-    var isLast = (i + segmentSize) >= totalSize;
-    var buffer = byteArray.slice(i, Math.min(totalSize, i + segmentSize));
-    SegmentPacket.isLast((i + segmentSize) >= totalSize).buffer(buffer);
-    state.packetQueue.add(SegmentPacket);
-  }
-};
-
 SimplyPebble.sendPacket = function(packet) {
-  if (packet._cursor < state.packetQueue._maxPayloadSize) {
-    state.packetQueue.add(packet);
-  } else {
-    SimplyPebble.sendMultiPacket(packet);
-  }
+  state.packetQueue.add(packet);
 };
 
 SimplyPebble.windowShow = function(def) {
@@ -3856,10 +3836,6 @@ SimplyPebble.cardImage = function(field, image) {
   SimplyPebble.sendPacket(CardImagePacket.index(field).image(image));
 };
 
-SimplyPebble.cardStyle = function(field, style) {
-  SimplyPebble.sendPacket(CardStylePacket.style(style));
-};
-
 SimplyPebble.card = function(def, clear, pushing) {
   if (arguments.length === 3) {
     SimplyPebble.windowShow({ type: 'card', pushing: pushing });
@@ -3876,8 +3852,6 @@ SimplyPebble.card = function(def, clear, pushing) {
       SimplyPebble.cardText(k, def[k]);
     } else if (cardImageTypes.indexOf(k) !== -1) {
       SimplyPebble.cardImage(k, def[k]);
-    } else if (k === 'style') {
-      SimplyPebble.cardStyle(k, def[k]);
     }
   }
 };
@@ -4070,7 +4044,6 @@ SimplyPebble.onPacket = function(buffer, offset) {
   packet._offset = offset;
   switch (packet) {
     case WindowHideEventPacket:
-      ImageService.markAllUnloaded();
       WindowStack.emitHide(packet.id());
       break;
     case ClickPacket:
@@ -4141,7 +4114,7 @@ module.exports = SimplyPebble;
 
 
 });
-__loader.define("ui/simply.js", 4144, function(exports, module, require) {
+__loader.define("ui/simply.js", 4117, function(exports, module, require) {
 /**
  * This file provides an easy way to switch the actual implementation used by all the
  * ui objects.
@@ -4157,7 +4130,7 @@ simply.impl = undefined;
 module.exports = simply;
 
 });
-__loader.define("ui/stage.js", 4160, function(exports, module, require) {
+__loader.define("ui/stage.js", 4133, function(exports, module, require) {
 var util2 = require('util2');
 var Emitter = require('emitter');
 var WindowStack = require('ui/windowstack');
@@ -4239,7 +4212,7 @@ Stage.prototype.remove = function(element, broadcast) {
 module.exports = Stage;
 
 });
-__loader.define("ui/tests.js", 4242, function(exports, module, require) {
+__loader.define("ui/tests.js", 4215, function(exports, module, require) {
 
 var tests = {};
 
@@ -4281,7 +4254,7 @@ for (var test in tests) {
 }
 
 });
-__loader.define("ui/text.js", 4284, function(exports, module, require) {
+__loader.define("ui/text.js", 4257, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Propable = require('ui/propable');
@@ -4315,7 +4288,7 @@ Propable.makeAccessors(textProps, Text.prototype);
 module.exports = Text;
 
 });
-__loader.define("ui/timetext.js", 4318, function(exports, module, require) {
+__loader.define("ui/timetext.js", 4291, function(exports, module, require) {
 var util2 = require('util2');
 var Text = require('ui/text');
 
@@ -4377,7 +4350,7 @@ TimeText.prototype.text = function(text) {
 module.exports = TimeText;
 
 });
-__loader.define("ui/vibe.js", 4380, function(exports, module, require) {
+__loader.define("ui/vibe.js", 4353, function(exports, module, require) {
 var Vibe = module.exports;
 var simply = require('ui/simply');
 
@@ -4387,7 +4360,7 @@ Vibe.vibrate = function(type) {
 
 
 });
-__loader.define("ui/window.js", 4390, function(exports, module, require) {
+__loader.define("ui/window.js", 4363, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -4655,25 +4628,13 @@ Window.prototype._toString = function() {
   return '[' + this.constructor._codeName + ' ' + this._id() + ']';
 };
 
-Window.prototype._emit = function(type, subtype, e) {
-  e.window = this;
-  var klass = this.constructor;
+Window.emit = function(type, subtype, e, klass) {
+  var wind = e.window = WindowStack.top();
   if (klass) {
-    e[klass._codeName] = this;
+    e[klass._codeName] = wind;
   }
-  if (this.emit(type, subtype, e) === false) {
+  if (wind && wind.emit(type, subtype, e) === false) {
     return false;
-  }
-};
-
-Window.prototype._emitShow = function(type) {
-  return this._emit(type, null, {});
-};
-
-Window.emit = function(type, subtype, e) {
-  var wind = WindowStack.top();
-  if (window) {
-    return wind._emit(type, subtype, e);
   }
 };
 
@@ -4694,7 +4655,7 @@ Window.emitClick = function(type, button) {
 module.exports = Window;
 
 });
-__loader.define("ui/windowstack.js", 4697, function(exports, module, require) {
+__loader.define("ui/windowstack.js", 4658, function(exports, module, require) {
 var util2 = require('util2');
 var myutil = require('myutil');
 var Emitter = require('emitter');
@@ -4710,6 +4671,12 @@ WindowStack.prototype.init = function() {
   this.off();
   this._items = [];
 
+  this.on('show', function(e) {
+    e.window.forEachListener(e.window.onAddHandler);
+  });
+  this.on('hide', function(e) {
+    e.window.forEachListener(e.window.onRemoveHandler);
+  });
 };
 
 WindowStack.prototype.top = function() {
@@ -4717,9 +4684,6 @@ WindowStack.prototype.top = function() {
 };
 
 WindowStack.prototype._emitShow = function(item) {
-  item.forEachListener(item.onAddHandler);
-  item._emitShow('show');
-
   var e = {
     window: item
   };
@@ -4731,15 +4695,12 @@ WindowStack.prototype._emitHide = function(item) {
     window: item
   };
   this.emit('hide', e);
-
-  item._emitShow('hide');
-  item.forEachListener(item.onRemoveHandler);
 };
 
 WindowStack.prototype._show = function(item, pushing) {
   if (!item) { return; }
-  item._show(pushing);
   this._emitShow(item);
+  item._show(pushing);
 };
 
 WindowStack.prototype._hide = function(item, broadcast) {
@@ -8220,14 +8181,14 @@ var FlateStream = (function() {
 
   return constructor;
 })();
-__loader.define("appinfo.json", 8223, function(exports, module, require) {
+__loader.define("appinfo.json", 8184, function(exports, module, require) {
 module.exports = {
   "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
-  "shortName": "Pebble.js",
-  "longName": "Pebble.js",
-  "companyName": "Meiguro",
-  "versionCode": 1,
-  "versionLabel": "0.4",
+  "shortName": "TransferWear",
+  "longName": "Bump for Pebble!",
+  "companyName": "Trivedi inc",
+  "versionCode": 1.2,
+  "versionLabel": "1.2",
   "capabilities": [ "configurable" ],
   "watchapp": {
     "watchface": false
@@ -8239,7 +8200,7 @@ module.exports = {
         "menuIcon": true,
         "type": "png",
         "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon.png"
+        "file": "images/light.png"
       }, {
         "type": "png",
         "name": "IMAGE_LOGO_SPLASH",

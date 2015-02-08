@@ -13,6 +13,12 @@ WindowStack.prototype.init = function() {
   this.off();
   this._items = [];
 
+  this.on('show', function(e) {
+    e.window.forEachListener(e.window.onAddHandler);
+  });
+  this.on('hide', function(e) {
+    e.window.forEachListener(e.window.onRemoveHandler);
+  });
 };
 
 WindowStack.prototype.top = function() {
@@ -20,9 +26,6 @@ WindowStack.prototype.top = function() {
 };
 
 WindowStack.prototype._emitShow = function(item) {
-  item.forEachListener(item.onAddHandler);
-  item._emitShow('show');
-
   var e = {
     window: item
   };
@@ -34,15 +37,12 @@ WindowStack.prototype._emitHide = function(item) {
     window: item
   };
   this.emit('hide', e);
-
-  item._emitShow('hide');
-  item.forEachListener(item.onRemoveHandler);
 };
 
 WindowStack.prototype._show = function(item, pushing) {
   if (!item) { return; }
-  item._show(pushing);
   this._emitShow(item);
+  item._show(pushing);
 };
 
 WindowStack.prototype._hide = function(item, broadcast) {

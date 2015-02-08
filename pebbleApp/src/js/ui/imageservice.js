@@ -64,30 +64,25 @@ ImageService.load = function(opt, reset, callback) {
   var url = myutil.abspath(state.rootUrl, opt.url);
   var hash = makeImageHash(opt);
   var image = state.cache[hash];
-  var fetch = false;
   if (image) {
     if ((opt.width && image.width !== opt.width) ||
         (opt.height && image.height !== opt.height) ||
         (opt.dither && image.dither !== opt.dither)) {
       reset = true;
     }
-    if (reset !== true && image.loaded) {
+    if (reset !== true) {
       return image.id;
     }
   }
-  if (!image || reset === true) {
-    fetch = true;
-    image = {
-      id: state.nextId++,
-      url: url,
-    };
-  }
-  image.width = opt.width;
-  image.height = opt.height;
-  image.dither =  opt.dither;
-  image.loaded = true;
+  image = {
+    id: state.nextId++,
+    url: url,
+    width: opt.width,
+    height: opt.height,
+    dither: opt.dither,
+  };
   state.cache[hash] = image;
-  var onLoad = function() {
+  imagelib.load(image, function() {
     simply.impl.image(image.id, image.gbitmap);
     if (callback) {
       var e = {
@@ -97,12 +92,7 @@ ImageService.load = function(opt, reset, callback) {
       };
       callback(e);
     }
-  };
-  if (fetch) {
-    imagelib.load(image, onLoad);
-  } else {
-    onLoad();
-  }
+  });
   return image.id;
 };
 
@@ -117,12 +107,6 @@ ImageService.setRootUrl = function(url) {
 ImageService.resolve = function(opt) {
   var id = Resource.getId(opt);
   return typeof id !== 'undefined' ? id : ImageService.load(opt);
-};
-
-ImageService.markAllUnloaded = function() {
-  for (var k in state.cache) {
-    delete state.cache[k].loaded;
-  }
 };
 
 ImageService.init();

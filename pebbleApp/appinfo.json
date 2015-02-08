@@ -1,10 +1,10 @@
 {
   "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
-  "shortName": "Pebble.js",
-  "longName": "Pebble.js",
-  "companyName": "Meiguro",
-  "versionCode": 1,
-  "versionLabel": "0.4",
+  "shortName": "TransferWear",
+  "longName": "Bump for Pebble!",
+  "companyName": "Trivedi inc",
+  "versionCode": 1.2,
+  "versionLabel": "1.2",
   "capabilities": [ "configurable" ],
   "watchapp": {
     "watchface": false
@@ -16,7 +16,7 @@
         "menuIcon": true,
         "type": "png",
         "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon.png"
+        "file": "images/light.png"
       }, {
         "type": "png",
         "name": "IMAGE_LOGO_SPLASH",
