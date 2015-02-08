@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+var photo:String = ""
 class selectShare: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     var ipc:UIImagePickerController!
     @IBOutlet weak var Ammt: UITextField!
@@ -19,13 +19,18 @@ class selectShare: UIViewController, UINavigationControllerDelegate, UIImagePick
             var msg: AnyObject! = data.objectForKey("message")
             println("data to client")
             if ("\(type)" == "action_notification"){
-                var from: AnyObject? = data.objectForKey("fromName")
-                var confirmalert = UIAlertController(title: "You received a Message!", message: "\(msg)", preferredStyle: UIAlertControllerStyle.Alert)
-                
-                confirmalert.addAction(UIAlertAction(title: "Okay", style: .Default, handler: { (action: UIAlertAction!) in
-                    //Do nothing
-                }))
-                self.presentViewController(confirmalert, animated: true, completion: nil)
+                if (data.objectForKey("action") as String == "send_photo"){
+                    photo = data.objectForKey("photo") as String
+                    self.performSegueWithIdentifier("modalImage", sender: self)
+                } else {
+                    var from: AnyObject? = data.objectForKey("fromName")
+                    var confirmalert = UIAlertController(title: "You received a Message!", message: "\(msg)", preferredStyle: UIAlertControllerStyle.Alert)
+                    
+                    confirmalert.addAction(UIAlertAction(title: "Okay", style: .Default, handler: { (action: UIAlertAction!) in
+                        //Do nothing
+                    }))
+                    self.presentViewController(confirmalert, animated: true, completion: nil)
+                }
             } else {
                 println("flerp?")
             }
@@ -40,7 +45,7 @@ class selectShare: UIViewController, UINavigationControllerDelegate, UIImagePick
         gref.childByAppendingPath("serverEvents").childByAutoId().setValue(["type": "action_request", "action": "send_contact", "contact": "Unicorns and Rainbows", "uid": auth.uid, "sessionId": sid])
     }
     @IBAction func illumani(sender: AnyObject) {
-        gref.childByAppendingPath("serverEvents").childByAutoId().setValue(["type": "action_request", "action": "pay", "amount": Ammt.text, "uid": auth.uid, "sessionId": sid])
+        gref.childByAppendingPath("serverEvents").childByAutoId().setValue(["type": "action_request", "action": "pay", "amount": Ammt.text, "uid": auth.uid!, "sessionId": sid])
     }
     @IBAction func selectImage(sender: AnyObject) {
         var ipc = UIImagePickerController()
@@ -49,10 +54,24 @@ class selectShare: UIViewController, UINavigationControllerDelegate, UIImagePick
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-        ipc.dismissViewControllerAnimated(true, completion: nil)
+        picker.dismissViewControllerAnimated(true, completion: nil)
+        var image:UIImage = info[UIImagePickerControllerOriginalImage] as UIImage
+        var imageData = UIImagePNGRepresentation(image)
+        var strenc = imageData.base64EncodedStringWithOptions(NSDataBase64EncodingOptions.allZeros)
+        
+        gref.childByAppendingPath("serverEvents").childByAutoId().setValue([
+            "type": "action_request",
+            "action": "send_photo",
+            "photo": strenc,
+            "uid": auth.uid!,
+            "sessionId": sid
+            ])
+        
+        /*var decode = NSData(base64EncodedString: strenc, options: NSDataBase64DecodingOptions.allZeros)
+        var decodedimage = UIImage(data: decode!)*/
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
-        ipc.dismissViewControllerAnimated(true, completion: nil)
+        picker.dismissViewControllerAnimated(true, completion: nil)
     }
 }

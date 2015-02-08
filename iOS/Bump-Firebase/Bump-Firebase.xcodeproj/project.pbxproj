@@ -23,6 +23,7 @@
 		56049EF31A8733230092652E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EF01A8733230092652E /* FBAudienceNetwork.framework */; };
 		56049EF51A873B490092652E /* BumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EF41A873B490092652E /* BumpViewController.swift */; };
 		56049EF71A8748950092652E /* selectShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EF61A8748950092652E /* selectShare.swift */; };
+		56201D2A1A87DAEF0066C8D9 /* modalImager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56201D291A87DAEF0066C8D9 /* modalImager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		56049EF01A8733230092652E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		56049EF41A873B490092652E /* BumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BumpViewController.swift; sourceTree = "<group>"; };
 		56049EF61A8748950092652E /* selectShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectShare.swift; sourceTree = "<group>"; };
+		56201D291A87DAEF0066C8D9 /* modalImager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modalImager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				56049EC11A8727760092652E /* ViewController.swift */,
 				56049EC31A8727760092652E /* Main.storyboard */,
 				56049EF61A8748950092652E /* selectShare.swift */,
+				56201D291A87DAEF0066C8D9 /* modalImager.swift */,
 				56049EF41A873B490092652E /* BumpViewController.swift */,
 				56049EC61A8727760092652E /* Images.xcassets */,
 				56049EC81A8727760092652E /* LaunchScreen.xib */,
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56049EC21A8727760092652E /* ViewController.swift in Sources */,
+				56201D2A1A87DAEF0066C8D9 /* modalImager.swift in Sources */,
 				56049EF71A8748950092652E /* selectShare.swift in Sources */,
 				56049EF51A873B490092652E /* BumpViewController.swift in Sources */,
 				56049EC01A8727760092652E /* AppDelegate.swift in Sources */,

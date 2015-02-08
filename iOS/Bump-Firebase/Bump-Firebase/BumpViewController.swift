@@ -25,6 +25,12 @@ class BumpViewController: UIViewController {
         timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("PollAccelerometer"), userInfo: nil, repeats: true)
         println(timer.timeInterval)
         
+    gref.childByAppendingPath("pebble_bumped_1 ").observeEventType(FEventType.ChildAdded, withBlock: {(snapshot) in
+        
+            self.BumpButton(self)
+        
+        });
+        
         gref.childByAppendingPath("clients/\(auth.uid)").removeValue()
         gref.childByAppendingPath("clients/\(auth.uid)").observeEventType(FEventType.ChildAdded, withBlock: {(snapshot:FDataSnapshot!) in
             var data: AnyObject! = snapshot.value
@@ -36,7 +42,7 @@ class BumpViewController: UIViewController {
                 self.Message.text = "Peer Found. Waiting  for Confirmation"
                 var from: AnyObject? = data.objectForKey("from")
                 var fromName: AnyObject? = data.objectForKey("fromName")
-                var confirmalert = UIAlertController(title: "Bump Partner Found", message: "Would you like to pair with \(fromName!)?", preferredStyle: UIAlertControllerStyle.Alert)
+                /*var confirmalert = UIAlertController(title: "Bump Partner Found", message: "Would you like to pair with \(fromName!)?", preferredStyle: UIAlertControllerStyle.Alert)
                 
                 confirmalert.addAction(UIAlertAction(title: "Confirm", style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction!) in
                     
@@ -47,7 +53,8 @@ class BumpViewController: UIViewController {
                     self.Spinner.stopAnimating()
                     self.Message.text = "Connection Cancelled"
                 }))
-                self.presentViewController(confirmalert, animated: true, completion: nil)
+                self.presentViewController(confirmalert, animated: true, completion: nil)*/
+                self.confirm(snapshot)
             } else if ("\(type)" == "session_confirmed"){
 //                self.navigationController!.presentViewController(self.storyboard!.instantiateViewControllerWithIdentifier("selectshare") as UIViewController, animated: true, completion: {})
                 self.performSegueWithIdentifier("test", sender: self)

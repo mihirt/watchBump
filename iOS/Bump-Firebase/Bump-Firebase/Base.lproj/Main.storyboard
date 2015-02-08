@@ -138,11 +138,69 @@
                     <connections>
                         <outlet property="Ammt" destination="lc4-XX-mlU" id="xrw-VU-Jao"/>
                         <segue destination="dWz-7O-nmh" kind="show" identifier="returnToBump" id="qN0-lb-wHs"/>
+                        <segue destination="NDc-4h-reP" kind="presentation" identifier="modalImage" id="TiV-p0-C7I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r8U-p8-1Ko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1878" y="487"/>
+            <point key="canvasLocation" x="1798" y="491"/>
+        </scene>
+        <!--Modal Imager-->
+        <scene sceneID="YCA-gj-3cn">
+            <objects>
+                <viewController id="NDc-4h-reP" customClass="modalImager" customModule="Bump_Firebase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fwg-QD-LC4"/>
+                        <viewControllerLayoutGuide type="bottom" id="7d0-oJ-ghf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qqw-WW-E19">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DpZ-MO-SDZ">
+                                <rect key="frame" x="132" y="96" width="324" height="231"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Received Image" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aG5-ax-JYL">
+                                <rect key="frame" x="238" y="50" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-AH-WhK">
+                                <rect key="frame" x="271" y="349" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="exit:" destination="NDc-4h-reP" eventType="touchUpInside" id="Etb-bi-QGU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhJ-2i-wOB">
+                                <rect key="frame" x="272" y="387" width="34" height="30"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Save:" destination="NDc-4h-reP" eventType="touchUpInside" id="8er-Db-RC3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="aG5-ax-JYL" secondAttribute="centerX" id="FEV-PX-mdx"/>
+                            <constraint firstAttribute="centerX" secondItem="DpZ-MO-SDZ" secondAttribute="centerX" constant="6" id="eEQ-70-DWW"/>
+                            <constraint firstAttribute="centerX" secondItem="8uc-AH-WhK" secondAttribute="centerX" constant="11.5" id="kk2-Rf-LeI"/>
+                            <constraint firstAttribute="centerX" secondItem="WhJ-2i-wOB" secondAttribute="centerX" constant="11" id="pgl-p0-luE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="img" destination="DpZ-MO-SDZ" id="c58-HZ-e2I"/>
+                        <outlet property="label" destination="aG5-ax-JYL" id="A5y-8Z-vo3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72H-Qb-uhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2492" y="483"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JCa-dU-ucs">
