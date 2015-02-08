@@ -14,7 +14,7 @@ class ViewController: UIViewController, PBPebbleCentralDelegate {
     var watch:PBWatch?
     var timer:NSTimer!
     var i = 0;
-    
+    //0a5399d9-5693-4f3e-b768-9c99b5f5dcea
     var uuid:[UInt8] = [0x13, 0x32, 0x15, 0xF0, 0xCF, 0x20, 0x4c, 0x05, 0x99, 0x7B, 0x3c, 0x9b, 0xE5, 0xA6, 0x4E, 0x5b]
     
     var data:NSData!

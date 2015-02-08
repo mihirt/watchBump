@@ -8,8 +8,8 @@
 
 import UIKit
 
-class selectShare: UIViewController {
-    
+class selectShare: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+    var ipc:UIImagePickerController!
     @IBOutlet weak var Ammt: UITextField!
     override func viewDidLoad() {
 
@@ -19,7 +19,7 @@ class selectShare: UIViewController {
             var msg: AnyObject! = data.objectForKey("message")
             println("data to client")
             if ("\(type)" == "action_notification"){
-                var from: AnyObject? = data.objectForKey("from")
+                var from: AnyObject? = data.objectForKey("fromName")
                 var confirmalert = UIAlertController(title: "You received a Message!", message: "\(msg)", preferredStyle: UIAlertControllerStyle.Alert)
                 
                 confirmalert.addAction(UIAlertAction(title: "Okay", style: .Default, handler: { (action: UIAlertAction!) in
@@ -41,5 +41,18 @@ class selectShare: UIViewController {
     }
     @IBAction func illumani(sender: AnyObject) {
         gref.childByAppendingPath("serverEvents").childByAutoId().setValue(["type": "action_request", "action": "pay", "amount": Ammt.text, "uid": auth.uid, "sessionId": sid])
+    }
+    @IBAction func selectImage(sender: AnyObject) {
+        var ipc = UIImagePickerController()
+        ipc.delegate = self
+        presentViewController(ipc, animated: true, completion: {})
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        ipc.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        ipc.dismissViewControllerAnimated(true, completion: nil)
     }
 }

@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func FacebookIt(sender: AnyObject) {
-        FBSession.openActiveSessionWithReadPermissions(["public_profile"], allowLoginUI: true,
+        FBSession.openActiveSessionWithReadPermissions(["public_profile","email"], allowLoginUI: true,
             completionHandler: { (session:FBSession!, state:FBSessionState, error:NSError!) in
                 if error != nil {
                     println("Facebook login failed. Error \(error)")
@@ -48,6 +48,9 @@ class ViewController: UIViewController {
     func doLoggedInAction(authData:FAuthData){
         println(authData.uid)
         auth = authData
+
+        gref.childByAppendingPath("users/\(auth.uid)").setValue(auth.providerData)
+        
         self.navigationController!.presentViewController(self.storyboard!.instantiateViewControllerWithIdentifier("mainview") as UIViewController, animated: true, completion: {})
     }
 

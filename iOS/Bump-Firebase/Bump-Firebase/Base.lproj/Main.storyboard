@@ -81,14 +81,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ammount" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lc4-XX-mlU">
-                                <rect key="frame" x="252" y="111" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Money Ammount" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lc4-XX-mlU">
+                                <rect key="frame" x="237" y="111" width="126" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81z-Ad-mpy">
-                                <rect key="frame" x="256" y="217" width="85" height="30"/>
-                                <state key="normal" title="Bump Again">
+                                <rect key="frame" x="261" y="217" width="76" height="30"/>
+                                <state key="normal" title="New Bump">
                                     <color key="titleColor" red="1" green="0.090197819205283802" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -97,8 +97,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTq-vr-5hQ">
-                                <rect key="frame" x="275" y="149" width="51" height="30"/>
-                                <state key="normal" title="$Mani$">
+                                <rect key="frame" x="257" y="141" width="87" height="30"/>
+                                <state key="normal" title="Send Money">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -106,12 +106,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uK-ch-FZx">
-                                <rect key="frame" x="238" y="179" width="125" height="30"/>
+                                <rect key="frame" x="237" y="167" width="125" height="30"/>
                                 <state key="normal" title="Send Contact Info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="SendContactInfo:" destination="TAX-xj-VSX" eventType="touchUpInside" id="VDZ-B5-vl7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6M-Rl-gFe">
+                                <rect key="frame" x="258" y="190" width="83" height="30"/>
+                                <state key="normal" title="Send Image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectImage:" destination="TAX-xj-VSX" eventType="touchUpInside" id="DfD-sU-11o"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,6 +129,7 @@
                             <constraint firstAttribute="centerX" secondItem="81z-Ad-mpy" secondAttribute="centerX" constant="2" id="2TM-F9-yZe"/>
                             <constraint firstAttribute="centerX" secondItem="YNJ-Nr-Wf4" secondAttribute="centerX" constant="-9" id="B2H-td-nPI"/>
                             <constraint firstAttribute="centerX" secondItem="zTq-vr-5hQ" secondAttribute="centerX" constant="-0.5" id="Q1C-Nm-eHV"/>
+                            <constraint firstAttribute="centerX" secondItem="O6M-Rl-gFe" secondAttribute="centerX" constant="0.5" id="hAq-b8-9Hp"/>
                             <constraint firstAttribute="centerX" secondItem="7uK-ch-FZx" secondAttribute="centerX" id="jQf-33-3Qt"/>
                             <constraint firstAttribute="centerX" secondItem="lc4-XX-mlU" secondAttribute="centerX" constant="-0.5" id="y1H-Ww-Nb0"/>
                         </constraints>
@@ -163,11 +173,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Bump or tap bump with a freind to get started" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ww-qc-C0n">
+                                <rect key="frame" x="202" y="350" width="197" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="OKZ-V2-rhM">
+                                <rect key="frame" x="282" y="305" width="37" height="37"/>
+                                <color key="color" red="0.45030381944444442" green="0.45030381944444442" blue="0.45030381944444442" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyG-qH-7Rw">
-                                <rect key="frame" x="251" y="205" width="99" height="77"/>
-                                <color key="backgroundColor" red="0.0" green="0.54386315951852904" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="180" y="169" width="240" height="116"/>
+                                <color key="backgroundColor" red="0.16078431372549021" green="0.60392156862745094" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="BUMP">
+                                <state key="normal" title="TAP FOR BUMP">
                                     <color key="titleColor" red="0.97928361885938586" green="1" blue="0.98006759016361411" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -178,10 +198,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2ww-qc-C0n" secondAttribute="trailing" id="3ge-3g-LKr"/>
+                            <constraint firstAttribute="centerX" secondItem="OKZ-V2-rhM" secondAttribute="centerX" constant="-0.5" id="Ccj-ql-94S"/>
+                            <constraint firstItem="2ww-qc-C0n" firstAttribute="leading" secondItem="f8F-js-SaR" secondAttribute="leadingMargin" id="il7-LI-uQA"/>
+                            <constraint firstAttribute="centerX" secondItem="2ww-qc-C0n" secondAttribute="centerX" constant="-0.5" id="j3k-pt-Vl4"/>
                             <constraint firstAttribute="centerX" secondItem="PyG-qH-7Rw" secondAttribute="centerX" constant="-0.5" id="zCB-8X-ww3"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Message" destination="2ww-qc-C0n" id="Q5G-5I-53l"/>
+                        <outlet property="Spinner" destination="OKZ-V2-rhM" id="q8R-0X-2YY"/>
                         <segue destination="TAX-xj-VSX" kind="show" identifier="test" id="UaV-f7-YQ5"/>
                     </connections>
                 </viewController>
