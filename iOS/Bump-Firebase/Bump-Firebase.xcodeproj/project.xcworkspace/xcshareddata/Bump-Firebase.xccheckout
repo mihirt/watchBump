@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C32CD74-F1B2-4EB0-8133-F39156BEDE6F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bump-Firebase</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CEFBB84A8BFFB21868D98C6356DDA96163AB0FB0</key>
+		<string>https://github.com/mihirt/watchBump.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Bump-Firebase/Bump-Firebase.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CEFBB84A8BFFB21868D98C6356DDA96163AB0FB0</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mihirt/watchBump.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CEFBB84A8BFFB21868D98C6356DDA96163AB0FB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CEFBB84A8BFFB21868D98C6356DDA96163AB0FB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>watchBump</string>
+		</dict>
+	</array>
+</dict>
+</plist>

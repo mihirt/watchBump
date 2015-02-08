@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56049EC01A8727760092652E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EBF1A8727760092652E /* AppDelegate.swift */; };
+		56049EC21A8727760092652E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EC11A8727760092652E /* ViewController.swift */; };
+		56049EC51A8727760092652E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56049EC31A8727760092652E /* Main.storyboard */; };
+		56049EC71A8727760092652E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56049EC61A8727760092652E /* Images.xcassets */; };
+		56049ECA1A8727760092652E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56049EC81A8727760092652E /* LaunchScreen.xib */; };
+		56049ED61A8727760092652E /* Bump_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049ED51A8727760092652E /* Bump_FirebaseTests.swift */; };
+		56049EE01A872C410092652E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EDF1A872C410092652E /* libicucore.dylib */; };
+		56049EE21A872C460092652E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EE11A872C460092652E /* Security.framework */; };
+		56049EE41A872C4F0092652E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EE31A872C4F0092652E /* libc++.dylib */; };
+		56049EE61A872C580092652E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EE51A872C580092652E /* CFNetwork.framework */; };
+		56049EE81A872C620092652E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EE71A872C620092652E /* SystemConfiguration.framework */; };
+		56049EEA1A872C740092652E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EE91A872C740092652E /* Firebase.framework */; };
+		56049EF11A8733230092652E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EEE1A8733230092652E /* Bolts.framework */; };
+		56049EF21A8733230092652E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EEF1A8733230092652E /* FacebookSDK.framework */; };
+		56049EF31A8733230092652E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EF01A8733230092652E /* FBAudienceNetwork.framework */; };
+		56049EF51A873B490092652E /* BumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EF41A873B490092652E /* BumpViewController.swift */; };
+		56049EF71A8748950092652E /* selectShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049EF61A8748950092652E /* selectShare.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56049ED01A8727760092652E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56049EB21A8727760092652E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56049EB91A8727760092652E;
+			remoteInfo = "Bump-Firebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56049EBA1A8727760092652E /* Bump-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bump-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56049EBE1A8727760092652E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56049EBF1A8727760092652E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56049EC11A8727760092652E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56049EC41A8727760092652E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56049EC61A8727760092652E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56049EC91A8727760092652E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		56049ECF1A8727760092652E /* Bump-FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bump-FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56049ED41A8727760092652E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56049ED51A8727760092652E /* Bump_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bump_FirebaseTests.swift; sourceTree = "<group>"; };
+		56049EDF1A872C410092652E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		56049EE11A872C460092652E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		56049EE31A872C4F0092652E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		56049EE51A872C580092652E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		56049EE71A872C620092652E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56049EE91A872C740092652E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		56049EEB1A872CCC0092652E /* Bump-Firebase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bump-Firebase-Bridging-Header.h"; sourceTree = "<group>"; };
+		56049EEE1A8733230092652E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		56049EEF1A8733230092652E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		56049EF01A8733230092652E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		56049EF41A873B490092652E /* BumpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BumpViewController.swift; sourceTree = "<group>"; };
+		56049EF61A8748950092652E /* selectShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectShare.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56049EB71A8727760092652E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56049EE81A872C620092652E /* SystemConfiguration.framework in Frameworks */,
+				56049EEA1A872C740092652E /* Firebase.framework in Frameworks */,
+				56049EE61A872C580092652E /* CFNetwork.framework in Frameworks */,
+				56049EE41A872C4F0092652E /* libc++.dylib in Frameworks */,
+				56049EE21A872C460092652E /* Security.framework in Frameworks */,
+				56049EF21A8733230092652E /* FacebookSDK.framework in Frameworks */,
+				56049EF31A8733230092652E /* FBAudienceNetwork.framework in Frameworks */,
+				56049EE01A872C410092652E /* libicucore.dylib in Frameworks */,
+				56049EF11A8733230092652E /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56049ECC1A8727760092652E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56049EB11A8727760092652E = {
+			isa = PBXGroup;
+			children = (
+				56049EEE1A8733230092652E /* Bolts.framework */,
+				56049EEF1A8733230092652E /* FacebookSDK.framework */,
+				56049EF01A8733230092652E /* FBAudienceNetwork.framework */,
+				56049EE91A872C740092652E /* Firebase.framework */,
+				56049EE71A872C620092652E /* SystemConfiguration.framework */,
+				56049EE51A872C580092652E /* CFNetwork.framework */,
+				56049EE31A872C4F0092652E /* libc++.dylib */,
+				56049EE11A872C460092652E /* Security.framework */,
+				56049EDF1A872C410092652E /* libicucore.dylib */,
+				56049EBC1A8727760092652E /* Bump-Firebase */,
+				56049ED21A8727760092652E /* Bump-FirebaseTests */,
+				56049EBB1A8727760092652E /* Products */,
+				56049EEB1A872CCC0092652E /* Bump-Firebase-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		56049EBB1A8727760092652E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56049EBA1A8727760092652E /* Bump-Firebase.app */,
+				56049ECF1A8727760092652E /* Bump-FirebaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56049EBC1A8727760092652E /* Bump-Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				56049EBF1A8727760092652E /* AppDelegate.swift */,
+				56049EC11A8727760092652E /* ViewController.swift */,
+				56049EC31A8727760092652E /* Main.storyboard */,
+				56049EF61A8748950092652E /* selectShare.swift */,
+				56049EF41A873B490092652E /* BumpViewController.swift */,
+				56049EC61A8727760092652E /* Images.xcassets */,
+				56049EC81A8727760092652E /* LaunchScreen.xib */,
+				56049EBD1A8727760092652E /* Supporting Files */,
+			);
+			path = "Bump-Firebase";
+			sourceTree = "<group>";
+		};
+		56049EBD1A8727760092652E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56049EBE1A8727760092652E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56049ED21A8727760092652E /* Bump-FirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				56049ED51A8727760092652E /* Bump_FirebaseTests.swift */,
+				56049ED31A8727760092652E /* Supporting Files */,
+			);
+			path = "Bump-FirebaseTests";
+			sourceTree = "<group>";
+		};
+		56049ED31A8727760092652E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56049ED41A8727760092652E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56049EB91A8727760092652E /* Bump-Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56049ED91A8727760092652E /* Build configuration list for PBXNativeTarget "Bump-Firebase" */;
+			buildPhases = (
+				56049EB61A8727760092652E /* Sources */,
+				56049EB71A8727760092652E /* Frameworks */,
+				56049EB81A8727760092652E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bump-Firebase";
+			productName = "Bump-Firebase";
+			productReference = 56049EBA1A8727760092652E /* Bump-Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56049ECE1A8727760092652E /* Bump-FirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56049EDC1A8727760092652E /* Build configuration list for PBXNativeTarget "Bump-FirebaseTests" */;
+			buildPhases = (
+				56049ECB1A8727760092652E /* Sources */,
+				56049ECC1A8727760092652E /* Frameworks */,
+				56049ECD1A8727760092652E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56049ED11A8727760092652E /* PBXTargetDependency */,
+			);
+			name = "Bump-FirebaseTests";
+			productName = "Bump-FirebaseTests";
+			productReference = 56049ECF1A8727760092652E /* Bump-FirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56049EB21A8727760092652E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ryan Johnson";
+				TargetAttributes = {
+					56049EB91A8727760092652E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					56049ECE1A8727760092652E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 56049EB91A8727760092652E;
+					};
+				};
+			};
+			buildConfigurationList = 56049EB51A8727760092652E /* Build configuration list for PBXProject "Bump-Firebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56049EB11A8727760092652E;
+			productRefGroup = 56049EBB1A8727760092652E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56049EB91A8727760092652E /* Bump-Firebase */,
+				56049ECE1A8727760092652E /* Bump-FirebaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56049EB81A8727760092652E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56049EC51A8727760092652E /* Main.storyboard in Resources */,
+				56049ECA1A8727760092652E /* LaunchScreen.xib in Resources */,
+				56049EC71A8727760092652E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56049ECD1A8727760092652E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56049EB61A8727760092652E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56049EC21A8727760092652E /* ViewController.swift in Sources */,
+				56049EF71A8748950092652E /* selectShare.swift in Sources */,
+				56049EF51A873B490092652E /* BumpViewController.swift in Sources */,
+				56049EC01A8727760092652E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56049ECB1A8727760092652E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56049ED61A8727760092652E /* Bump_FirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56049ED11A8727760092652E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56049EB91A8727760092652E /* Bump-Firebase */;
+			targetProxy = 56049ED01A8727760092652E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56049EC31A8727760092652E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56049EC41A8727760092652E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56049EC81A8727760092652E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56049EC91A8727760092652E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56049ED71A8727760092652E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56049ED81A8727760092652E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56049EDA1A8727760092652E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Bump-Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bump-Firebase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56049EDB1A8727760092652E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Bump-Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bump-Firebase-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		56049EDD1A8727760092652E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bump-FirebaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bump-Firebase.app/Bump-Firebase";
+			};
+			name = Debug;
+		};
+		56049EDE1A8727760092652E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bump-FirebaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bump-Firebase.app/Bump-Firebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56049EB51A8727760092652E /* Build configuration list for PBXProject "Bump-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56049ED71A8727760092652E /* Debug */,
+				56049ED81A8727760092652E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56049ED91A8727760092652E /* Build configuration list for PBXNativeTarget "Bump-Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56049EDA1A8727760092652E /* Debug */,
+				56049EDB1A8727760092652E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56049EDC1A8727760092652E /* Build configuration list for PBXNativeTarget "Bump-FirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56049EDD1A8727760092652E /* Debug */,
+				56049EDE1A8727760092652E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56049EB21A8727760092652E /* Project object */;
+}
