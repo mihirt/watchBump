@@ -18,6 +18,17 @@ var main = new UI.Card({
 
 Accel.on('tap', function(e) {
   console.log("tap")
+  var transactionId = Pebble.sendAppMessage( { '0': 42, '1': 'String value' },
+    function(e) {
+      console.log('Successfully delivered message with transactionId='
+        + e.data.transactionId);
+    },
+    function(e) {
+      console.log('Unable to deliver message with transactionId='
+        + e.data.transactionId
+        + ' Error is: ' + e.error.message);
+    }
+  );
   if (currentCard == "main"){
     currentCard = "push";
     var card = new UI.Card();
@@ -32,6 +43,17 @@ Accel.on('tap', function(e) {
     card.show();
   }
 });
+
+Pebble.addEventListener('appmessage',
+  function(e) {
+    if (e.payload["3"] != null){
+      var card = new UI.Card();
+      card.title('MSG RECEIVED');
+      card.body(JSON.stringify(e.payload));
+      card.show();
+    }
+  });
+
 
 main.show();
 

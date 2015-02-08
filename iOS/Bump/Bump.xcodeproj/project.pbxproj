@@ -13,6 +13,13 @@
 		56049E871A86DDE20092652E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56049E861A86DDE20092652E /* Images.xcassets */; };
 		56049E8A1A86DDE20092652E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56049E881A86DDE20092652E /* LaunchScreen.xib */; };
 		56049E961A86DDE20092652E /* BumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56049E951A86DDE20092652E /* BumpTests.swift */; };
+		56049EA01A86E3D10092652E /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049E9F1A86E3D10092652E /* PebbleKit.framework */; };
+		56049EA21A86E3F00092652E /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EA11A86E3F00092652E /* PebbleVendor.framework */; };
+		56049EA41A86E4160092652E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EA31A86E4160092652E /* ExternalAccessory.framework */; };
+		56049EA61A86E41F0092652E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EA51A86E41F0092652E /* libz.dylib */; };
+		56049EA81A86E4270092652E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EA71A86E4270092652E /* CoreBluetooth.framework */; };
+		56049EAA1A86E42F0092652E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EA91A86E42F0092652E /* CoreMotion.framework */; };
+		56049EAC1A86E4380092652E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56049EAB1A86E4380092652E /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,15 @@
 		56049E8F1A86DDE20092652E /* BumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56049E941A86DDE20092652E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56049E951A86DDE20092652E /* BumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumpTests.swift; sourceTree = "<group>"; };
+		56049E9F1A86E3D10092652E /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		56049EA11A86E3F00092652E /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		56049EA31A86E4160092652E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		56049EA51A86E41F0092652E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		56049EA71A86E4270092652E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		56049EA91A86E42F0092652E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		56049EAB1A86E4380092652E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		56049EAD1A86E5620092652E /* Bump.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Bump.entitlements; sourceTree = "<group>"; };
+		56049EAE1A86E6210092652E /* Bump-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bump-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56049EAC1A86E4380092652E /* MessageUI.framework in Frameworks */,
+				56049EAA1A86E42F0092652E /* CoreMotion.framework in Frameworks */,
+				56049EA81A86E4270092652E /* CoreBluetooth.framework in Frameworks */,
+				56049EA61A86E41F0092652E /* libz.dylib in Frameworks */,
+				56049EA41A86E4160092652E /* ExternalAccessory.framework in Frameworks */,
+				56049EA21A86E3F00092652E /* PebbleVendor.framework in Frameworks */,
+				56049EA01A86E3D10092652E /* PebbleKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +82,17 @@
 		56049E711A86DDE20092652E = {
 			isa = PBXGroup;
 			children = (
+				56049EAB1A86E4380092652E /* MessageUI.framework */,
+				56049EA91A86E42F0092652E /* CoreMotion.framework */,
+				56049EA71A86E4270092652E /* CoreBluetooth.framework */,
+				56049EA51A86E41F0092652E /* libz.dylib */,
+				56049EA31A86E4160092652E /* ExternalAccessory.framework */,
+				56049EA11A86E3F00092652E /* PebbleVendor.framework */,
+				56049E9F1A86E3D10092652E /* PebbleKit.framework */,
 				56049E7C1A86DDE20092652E /* Bump */,
 				56049E921A86DDE20092652E /* BumpTests */,
 				56049E7B1A86DDE20092652E /* Products */,
+				56049EAE1A86E6210092652E /* Bump-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +108,7 @@
 		56049E7C1A86DDE20092652E /* Bump */ = {
 			isa = PBXGroup;
 			children = (
+				56049EAD1A86E5620092652E /* Bump.entitlements */,
 				56049E7F1A86DDE20092652E /* AppDelegate.swift */,
 				56049E811A86DDE20092652E /* ViewController.swift */,
 				56049E831A86DDE20092652E /* Main.storyboard */,
@@ -161,6 +193,12 @@
 				TargetAttributes = {
 					56049E791A86DDE20092652E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = CB4HJKUUZ3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					56049E8E1A86DDE20092652E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -338,9 +376,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Bump/Bump.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bump/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bump-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +398,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Bump/Bump.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bump/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bump-Bridging-Header.h";
 			};
 			name = Release;
 		};
