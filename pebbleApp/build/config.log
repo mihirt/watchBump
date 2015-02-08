@@ -1,13 +1,13 @@
-# project  configured on Sat Feb  7 15:29:40 2015 by
+# project  configured on Sat Feb  7 16:03:59 2015 by
 # waf 1.7.11 (abi 98, python 20706f0 on darwin)
 # using /Users/ryanjohnson/pebble-dev/PebbleSDK-2.8.1/Pebble/waf configure build
 #
 ----------------------------------------
 Setting top to
-/Users/ryanjohnson/Documents/Coding/HSHACKS/pebblejs
+/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp
 ----------------------------------------
 Setting out to
-/Users/ryanjohnson/Documents/Coding/HSHACKS/pebblejs/build
+/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build
 ----------------------------------------
 Checking for program gcc,cc
 arm-none-eabi-gcc

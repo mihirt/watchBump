@@ -1368,7 +1368,7 @@ DISCARD
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/pebblejs/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/watchBump/pebbleApp/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -1504,45 +1504,45 @@ OUTPUT(/Users/ryanjohnson/Documents/Coding/HSHACKS/pebblejs/build/pebble-app.elf
  .debug_ranges  0x0000000000000e90      0x130 src/simply/simply_window.c.11.o
  .debug_ranges  0x0000000000000fc0       0x40 src/simply/simply_window_stack.c.11.o
 
-.debug_line     0x0000000000000000     0x2e8f
+.debug_line     0x0000000000000000     0x2f08
  .debug_line    0x0000000000000000       0xa4 src/main.c.11.o
- .debug_line    0x00000000000000a4      0x2b8 src/simply/simply.c.11.o
- .debug_line    0x000000000000035c      0x289 src/simply/simply_accel.c.11.o
- .debug_line    0x00000000000005e5      0x6d7 src/simply/simply_menu.c.11.o
- .debug_line    0x0000000000000cbc      0x7c0 src/simply/simply_msg.c.11.o
- .debug_line    0x000000000000147c      0x3b6 src/simply/simply_res.c.11.o
- .debug_line    0x0000000000001832      0x278 src/simply/simply_splash.c.11.o
- .debug_line    0x0000000000001aaa      0x6d1 src/simply/simply_stage.c.11.o
- .debug_line    0x000000000000217b      0x4fd src/simply/simply_ui.c.11.o
- .debug_line    0x0000000000002678      0x41e src/simply/simply_window.c.11.o
- .debug_line    0x0000000000002a96      0x2cd src/simply/simply_window_stack.c.11.o
- .debug_line    0x0000000000002d63      0x12c appinfo.auto.c.11.o
+ .debug_line    0x00000000000000a4      0x2c3 src/simply/simply.c.11.o
+ .debug_line    0x0000000000000367      0x294 src/simply/simply_accel.c.11.o
+ .debug_line    0x00000000000005fb      0x6e2 src/simply/simply_menu.c.11.o
+ .debug_line    0x0000000000000cdd      0x7cb src/simply/simply_msg.c.11.o
+ .debug_line    0x00000000000014a8      0x3c1 src/simply/simply_res.c.11.o
+ .debug_line    0x0000000000001869      0x283 src/simply/simply_splash.c.11.o
+ .debug_line    0x0000000000001aec      0x6dc src/simply/simply_stage.c.11.o
+ .debug_line    0x00000000000021c8      0x513 src/simply/simply_ui.c.11.o
+ .debug_line    0x00000000000026db      0x429 src/simply/simply_window.c.11.o
+ .debug_line    0x0000000000002b04      0x2d8 src/simply/simply_window_stack.c.11.o
+ .debug_line    0x0000000000002ddc      0x12c appinfo.auto.c.11.o
 
-.debug_str      0x0000000000000000     0x3a82
- .debug_str     0x0000000000000000      0x183 src/main.c.11.o
-                                        0x1c2 (size before relaxing)
- .debug_str     0x0000000000000183      0x47c src/simply/simply.c.11.o
-                                        0x6ad (size before relaxing)
- .debug_str     0x00000000000005ff      0x1cd src/simply/simply_accel.c.11.o
-                                        0x4c2 (size before relaxing)
- .debug_str     0x00000000000007cc      0xa11 src/simply/simply_menu.c.11.o
-                                        0xf86 (size before relaxing)
- .debug_str     0x00000000000011dd     0x185c src/simply/simply_msg.c.11.o
-                                       0x2257 (size before relaxing)
- .debug_str     0x0000000000002a39      0x141 src/simply/simply_res.c.11.o
-                                        0x4de (size before relaxing)
- .debug_str     0x0000000000002b7a      0x162 src/simply/simply_splash.c.11.o
-                                        0x522 (size before relaxing)
- .debug_str     0x0000000000002cdc      0x717 src/simply/simply_stage.c.11.o
-                                       0x1538 (size before relaxing)
- .debug_str     0x00000000000033f3      0x1bf src/simply/simply_ui.c.11.o
-                                        0xdde (size before relaxing)
- .debug_str     0x00000000000035b2      0x33f src/simply/simply_window.c.11.o
-                                        0xb56 (size before relaxing)
- .debug_str     0x00000000000038f1       0x41 src/simply/simply_window_stack.c.11.o
-                                        0x4ef (size before relaxing)
- .debug_str     0x0000000000003932      0x150 appinfo.auto.c.11.o
-                                        0x2f1 (size before relaxing)
+.debug_str      0x0000000000000000     0x3a8d
+ .debug_str     0x0000000000000000      0x18e src/main.c.11.o
+                                        0x1cd (size before relaxing)
+ .debug_str     0x000000000000018e      0x47c src/simply/simply.c.11.o
+                                        0x6b8 (size before relaxing)
+ .debug_str     0x000000000000060a      0x1cd src/simply/simply_accel.c.11.o
+                                        0x4cd (size before relaxing)
+ .debug_str     0x00000000000007d7      0xa11 src/simply/simply_menu.c.11.o
+                                        0xf91 (size before relaxing)
+ .debug_str     0x00000000000011e8     0x185c src/simply/simply_msg.c.11.o
+                                       0x2262 (size before relaxing)
+ .debug_str     0x0000000000002a44      0x141 src/simply/simply_res.c.11.o
+                                        0x4e9 (size before relaxing)
+ .debug_str     0x0000000000002b85      0x162 src/simply/simply_splash.c.11.o
+                                        0x52d (size before relaxing)
+ .debug_str     0x0000000000002ce7      0x717 src/simply/simply_stage.c.11.o
+                                       0x1543 (size before relaxing)
+ .debug_str     0x00000000000033fe      0x1bf src/simply/simply_ui.c.11.o
+                                        0xde9 (size before relaxing)
+ .debug_str     0x00000000000035bd      0x33f src/simply/simply_window.c.11.o
+                                        0xb61 (size before relaxing)
+ .debug_str     0x00000000000038fc       0x41 src/simply/simply_window_stack.c.11.o
+                                        0x4fa (size before relaxing)
+ .debug_str     0x000000000000393d      0x150 appinfo.auto.c.11.o
+                                        0x2fc (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x1014
  .debug_frame   0x0000000000000000       0x28 src/main.c.11.o
